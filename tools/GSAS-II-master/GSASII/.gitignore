@@ -1,0 +1,41 @@
+# 忽略操作系统相关的文件
+.DS_Store
+Thumbs.db
+.cache/
+
+# 忽略日志文件
+*.log
+.env
+
+# 忽略 Python 编译文件
+*.pyc
+*.pyo
+__pycache__/
+
+# 忽略 IDE 的配置文件
+.vscode/
+.idea/
+
+# 忽略测试文件
+gsasii_test/
+
+0data_test/*
+RUN0021905_20250904/*
+0neutron_multi.py
+0neutron_refine.py
+0neutron_refine20250801.py
+0neutron_refine20250802_2.py
+0neutron_refine20250802_3.py
+0neutron_refine20250802_4.py
+0neutron_refine20250802_5.py
+0neutron_refine20250812.py
+0neutron_refine20250819.py
+0pdftest.py
+0test.py
+0test_multi_phase.py
+0test_multi_XRD.py
+data_check.py
+fix_neutron.py
+generate_refined_cif.py
+neutron_summary.py
+show_results.py

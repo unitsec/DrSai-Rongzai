@@ -1,0 +1,83 @@
+# 忽略操作系统相关的文件
+.DS_Store
+Thumbs.db
+.cache/
+
+# 忽略日志文件
+*.log
+drsai_test.env
+model_status.yaml
+
+# 忽略临时文件
+tmp/
+
+# 忽略远程智能体配置文件
+remote_agents.json
+
+# 忽略 Python 编译文件
+*.pyc
+*.pyo
+__pycache__/
+
+# 忽略 IDE 的配置文件
+.vscode/
+.idea/
+
+# 忽略测试文件
+test/
+
+.webui_secret_key
+
+# 忽略files文件夹
+files/*
+
+test_datesets/*
+# datasets/*
+*.gpx
+*.cif
+*.png
+*.lst
+*.txt
+*.csv
+
+tools/GSAS-II-master/GSASII/0data_test/*
+tools/GSAS-II-master/GSASII/RUN0021905_20250904/*
+tools/GSAS-II-master/GSASII/0neutron_multi.py
+tools/GSAS-II-master/GSASII/0neutron_refine.py
+tools/GSAS-II-master/GSASII/0neutron_refine20250801.py
+tools/GSAS-II-master/GSASII/0neutron_refine20250802_2.py
+tools/GSAS-II-master/GSASII/0neutron_refine20250802_3.py
+tools/GSAS-II-master/GSASII/0neutron_refine20250802_4.py
+tools/GSAS-II-master/GSASII/0neutron_refine20250802_5.py
+tools/GSAS-II-master/GSASII/0neutron_refine20250812.py
+tools/GSAS-II-master/GSASII/0neutron_refine20250819.py
+tools/GSAS-II-master/GSASII/0pdftest.py
+tools/GSAS-II-master/GSASII/0test.py
+tools/GSAS-II-master/GSASII/0test_multi_phase.py
+tools/GSAS-II-master/GSASII/0test_multi_XRD.py
+tools/GSAS-II-master/GSASII/data_check.py
+tools/GSAS-II-master/GSASII/fix_neutron.py
+tools/GSAS-II-master/GSASII/generate_refined_cif.py
+tools/GSAS-II-master/GSASII/neutron_summary.py
+tools/GSAS-II-master/GSASII/show_results.py
+
+tools/pdf_refinement/0cif_pdf_20250903_2.py
+tools/pdf_refinement/0cif_pdf_20250903.py
+tools/pdf_refinement/0test.py
+tools/pdf_refinement/0test.py
+
+
+
+datasets/BL16/RUNdataFiles/RUN0021905/outtput/*
+.env
+tools/pdf_refinement/0pdf_multi_refine.py
+tools/pdf_refinement/0pdf_multi_refine20250926.py
+tools/pdf_refinement/0pdf_refine20250905.py
+tools/pdf_refinement/0pdf_refine20250918.py
+tools/cif_3D_visualization/*
+tools/cif_3D_visualization/cif_3D_visualization.py
+tools/GSAS-II-master/GSASII/0neutron_gsas_refine_flexible.py
+tools/GSAS-II-master/GSASII/0neutron_gsas_refine20251017.py
+tools/GSAS-II-master/GSASII/RUN0021905/*
+
+output/

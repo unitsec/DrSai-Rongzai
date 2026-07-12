@@ -1,0 +1,1284 @@
+.dark {
+    /* 主要背景色 - 深邃的深蓝黑色，有层次感 */
+    --color-bg-primary: #0d1117;
+    --color-bg-secondary: rgba(30, 41, 59, 0.55);
+    --color-bg-light: #1e293b;
+    --color-bg-tertiary: #293548;
+    --color-bg-opposite: #edf2f7;
+    --color-bg-white: #ffffff;
+    --color-bg-dark: #0d1117;
+    --color-bg-accent: #8b5cf6;
+    --color-inline-code-bg: rgba(139, 92, 246, 0.18);
+
+    /* 文字颜色 */
+    --color-text-primary: #f1f5f9;
+    /* 行内 code 紫底上勿用 secondary；仅作用于 code 芯片 */
+    --color-inline-code-text: var(--color-text-primary);
+    --color-text-secondary: rgba(148, 163, 184, 0.95);
+    --color-text-accent: #a78bfa;
+    --color-text-message: #f1f5f9;
+
+    /* 边框颜色 - 更细腻的分割线 */
+    --color-border-primary: rgba(148, 163, 184, 0.11);
+    --color-border-secondary: rgba(148, 163, 184, 0.06);
+    --color-border-accent: #8b5cf6;
+
+    /* 状态颜色 */
+    --color-warning-primary: #f59e0b;
+    --color-success-primary: #10b981;
+    --color-error-primary: #ef4444;
+
+    /* 品牌色彩 - 现代紫色系 */
+    --color-magenta-400: #e9d5ff;
+    --color-magenta-700: #a78bfa;
+    --color-magenta-800: #7c3aed;
+    --color-magenta-900: #5b21b6;
+
+    /* 蓝色系 */
+    --color-blue-400: #dbeafe;
+    --color-blue-700: #60a5fa;
+    --color-blue-800: #2563eb;
+    --color-blue-900: #1d4ed8;
+
+    /* 灰色系 */
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+
+    /* 渐变色 - 深色主题专用 */
+    --gradient-primary: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    --gradient-secondary: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+    --gradient-accent: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+    --gradient-text: linear-gradient(135deg, #a78bfa 0%, #60a5fa 50%, #c084fc 100%);
+    --gradient-surface: linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.85) 100%);
+
+    /* 阴影 - 更有深度感 */
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.5), 0 1px 2px -1px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.6), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.7), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.8), 0 8px 10px -6px rgba(0, 0, 0, 0.6);
+}
+
+.light {
+    /* 主要背景色 - 更纯净的白色系 */
+    --color-bg-primary: #ffffff;
+    --color-bg-secondary: rgba(168, 85, 247, 0.03);
+    --color-bg-light: #f8fafc;
+    --color-bg-tertiary: #f1f5f9;
+    --color-bg-opposite: #0f0f0f;
+    --color-bg-white: #ffffff;
+    --color-bg-dark: #0f0f0f;
+    --color-bg-accent: #a855f7;
+    --color-inline-code-bg: rgba(168, 85, 247, 0.14);
+
+    /* 文字颜色 - 更好的层次感 */
+    --color-text-primary: #0f172a;
+    --color-inline-code-text: var(--color-text-primary);
+    --color-text-secondary: #64748b;
+    --color-text-accent: #7c3aed;
+    --color-text-message: #000000;
+
+    /* 边框颜色 - 更细腻的分割线 */
+    --color-border-primary: #e2e8f0;
+    --color-border-secondary: #f1f5f9;
+    --color-border-accent: #a855f7;
+
+    /* 状态颜色 */
+    --color-warning-primary: #f59e0b;
+    --color-success-primary: #10b981;
+    --color-error-primary: #ef4444;
+
+    /* 品牌色彩 - 现代紫色系 */
+    --color-magenta-400: #e9d5ff;
+    --color-magenta-700: #a78bfa;
+    --color-magenta-800: #7c3aed;
+    --color-magenta-900: #5b21b6;
+
+    /* 蓝色系 - 更现代的配色 */
+    --color-blue-400: #dbeafe;
+    --color-blue-700: #60a5fa;
+    --color-blue-800: #2563eb;
+    --color-blue-900: #1d4ed8;
+
+    /* 灰色系 */
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+
+    /* 渐变色 */
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+
+    /* 阴影 */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 现代化工具类 */
+@layer utilities {
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    /* 毛玻璃效果 */
+    .glass {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .glass-dark {
+        background: rgba(13, 17, 23, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(71, 85, 105, 0.5);
+    }
+
+    /* 渐变背景 */
+    .bg-gradient-primary {
+        background: var(--gradient-primary);
+    }
+
+    .bg-gradient-secondary {
+        background: var(--gradient-secondary);
+    }
+
+    .bg-gradient-accent {
+        background: var(--gradient-accent);
+    }
+
+    /* 文字渐变 */
+    .text-gradient {
+        background: var(--gradient-text);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 200% 200%;
+        animation: gradient-shift 3s ease-in-out infinite;
+    }
+
+    @keyframes gradient-shift {
+        0%, 100% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+
+    /* AgentSquare 主推位 CTA：淡紫渐变 + 光泽扫过 */
+    .agent-featured-cta {
+        position: relative;
+        overflow: hidden;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        height: 2.375rem;
+        padding: 0 0.75rem 0 1rem;
+        border: none;
+        border-radius: 0.75rem;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        color: #7c6a99;
+        cursor: pointer;
+        background: linear-gradient(135deg, #faf7ff 0%, #f3ecff 42%, #ebe4ff 100%);
+        background-size: 200% 200%;
+        box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.85),
+            0 2px 10px rgba(167, 139, 250, 0.14);
+        transition:
+            transform 0.22s ease,
+            box-shadow 0.22s ease,
+            background-position 0.45s ease,
+            color 0.22s ease;
+    }
+
+    .agent-featured-cta:hover {
+        color: #6b5a8a;
+        background-position: 100% 50%;
+        box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.92),
+            0 4px 16px rgba(167, 139, 250, 0.2);
+        transform: translateY(-1px);
+    }
+
+    .agent-featured-cta:active {
+        transform: translateY(0) scale(0.98);
+    }
+
+    .agent-featured-cta:focus-visible {
+        outline: none;
+        box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.85),
+            0 2px 10px rgba(167, 139, 250, 0.14),
+            0 0 0 3px rgba(203, 184, 255, 0.35);
+    }
+
+    .agent-featured-cta__shine {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            105deg,
+            transparent 38%,
+            rgba(255, 255, 255, 0.55) 50%,
+            transparent 62%
+        );
+        transform: translateX(-120%);
+        transition: transform 0.55s ease;
+        pointer-events: none;
+    }
+
+    .agent-featured-cta:hover .agent-featured-cta__shine {
+        transform: translateX(120%);
+    }
+
+    .agent-featured-cta__label {
+        position: relative;
+        z-index: 1;
+    }
+
+    .agent-featured-cta__arrow {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.375rem;
+        height: 1.375rem;
+        border-radius: 9999px;
+        background: rgba(167, 139, 250, 0.16);
+        color: #8b7aab;
+        transition:
+            transform 0.22s ease,
+            background 0.22s ease,
+            color 0.22s ease;
+    }
+
+    .agent-featured-cta:hover .agent-featured-cta__arrow {
+        background: rgba(167, 139, 250, 0.24);
+        color: #756693;
+        transform: translateX(2px);
+    }
+
+    .dark .agent-featured-cta {
+        color: #ddd6fe;
+        background: linear-gradient(
+            135deg,
+            rgba(167, 139, 250, 0.12) 0%,
+            rgba(167, 139, 250, 0.18) 50%,
+            rgba(196, 181, 253, 0.14) 100%
+        );
+        box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.06),
+            0 2px 12px rgba(0, 0, 0, 0.18);
+    }
+
+    .dark .agent-featured-cta:hover {
+        color: #ede9fe;
+        box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.08),
+            0 4px 16px rgba(91, 33, 182, 0.22);
+    }
+
+    .dark .agent-featured-cta__arrow {
+        background: rgba(167, 139, 250, 0.2);
+        color: #c4b5fd;
+    }
+
+    .dark .agent-featured-cta:hover .agent-featured-cta__arrow {
+        background: rgba(167, 139, 250, 0.3);
+        color: #ddd6fe;
+    }
+
+    /* 现代阴影 */
+    .shadow-modern {
+        box-shadow: var(--shadow-md);
+    }
+
+    .shadow-modern-lg {
+        box-shadow: var(--shadow-lg);
+    }
+
+    .shadow-modern-xl {
+        box-shadow: var(--shadow-xl);
+    }
+
+    /* 平滑过渡 */
+    .transition-smooth {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .transition-bounce {
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    /* 悬停效果 */
+    .hover-lift {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .hover-lift:hover {
+        transform: translateY(-2px);
+    }
+
+    /* 脉冲动画 */
+    .pulse-glow {
+        animation: pulse-glow 2s infinite;
+    }
+
+    @keyframes pulse-glow {
+        0%, 100% {
+            box-shadow: 0 0 5px rgba(168, 85, 247, 0.5);
+        }
+        50% {
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.8);
+        }
+    }
+
+    /* 现代化滚动条 */
+    .scroll {
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-accent) transparent;
+    }
+
+    .scroll::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        background: var(--color-accent);
+        border-radius: 3px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb:hover {
+        background: var(--color-text-accent);
+    }
+
+    /* 文本选择样式 - 更明显的高亮 */
+    ::selection {
+        background: #8b5cf6 !important;
+        color: white !important;
+        text-shadow: none !important;
+    }
+
+    ::-moz-selection {
+        background: #8b5cf6 !important;
+        color: white !important;
+        text-shadow: none !important;
+    }
+
+    /* 输入框优化 - 使用!important确保穿透 */
+    .input-enhanced::placeholder {
+        transition: opacity 0.3s ease !important;
+        color: var(--color-text-secondary) !important;
+    }
+
+    .input-enhanced:focus::placeholder {
+        opacity: 0 !important;
+    }
+
+    /* 强制设置文字颜色和光标 */
+    .input-enhanced {
+        caret-color: var(--color-accent) !important;
+    }
+
+    /* 深色主题文字颜色 */
+    .dark .input-enhanced {
+        color: #f8fafc !important;
+        caret-color: #8b5cf6 !important;
+    }
+
+    /* 浅色主题文字颜色 */
+    .light .input-enhanced {
+        color: #1f2937 !important;
+        caret-color: #8b5cf6 !important;
+    }
+
+    /* 确保选中文字时光标可见 */
+    .input-enhanced::selection {
+        background: var(--color-accent) !important;
+        color: white !important;
+    }
+
+    .input-enhanced::-moz-selection {
+        background: var(--color-accent) !important;
+        color: white !important;
+    }
+
+    /* 确保消息内容可以被选择 */
+    .message-content,
+    .prose,
+    .prose *,
+    .markdown-content,
+    .markdown-content *,
+    .break-words,
+    .break-words * {
+        user-select: text !important;
+        -webkit-user-select: text !important;
+        -moz-user-select: text !important;
+        -ms-user-select: text !important;
+    }
+
+    /* 确保消息容器不阻止文本选择 */
+    .group,
+    .relative,
+    .w-full {
+        user-select: text;
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+    }
+
+    /* 按钮和交互元素应该不可选择 */
+    button,
+    .cursor-pointer,
+    .hover\\:bg-secondary,
+    .transition-colors,
+    .hover-lift {
+        user-select: none !important;
+        -webkit-user-select: none !important;
+        -moz-user-select: none !important;
+        -ms-user-select: none !important;
+    }
+
+    /* 强制确保文本内容可选择 */
+    p, span, div.message-content, div.prose {
+        user-select: text !important;
+        -webkit-user-select: text !important;
+        -moz-user-select: text !important;
+        -ms-user-select: text !important;
+    }
+
+    /* 美化滚动条样式 */
+    .scroll::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: 3px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+        transition: all 0.2s ease;
+    }
+
+    .scroll::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .scroll::-webkit-scrollbar-thumb:active {
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Firefox 滚动条样式 */
+    .scroll {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+    }
+
+    /* 侧边栏专用滚动条 - 更细更优雅 */
+    .sidebar-scroll::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .sidebar-scroll::-webkit-scrollbar-track {
+        background: transparent;
+        margin: 8px 0;
+    }
+
+    .sidebar-scroll::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.2);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+        background: rgba(139, 92, 246, 0.4);
+    }
+
+    .sidebar-scroll::-webkit-scrollbar-thumb:active {
+        background: rgba(139, 92, 246, 0.6);
+    }
+
+    .sidebar-scroll {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(139, 92, 246, 0.2) transparent;
+    }
+
+    /* 浅色主题滚动条样式 */
+    .light .scroll::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .light .scroll::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .light .scroll::-webkit-scrollbar-thumb:active {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .light .scroll {
+        scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
+    }
+
+    .light .sidebar-scroll::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.15);
+    }
+
+    .light .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+        background: rgba(139, 92, 246, 0.3);
+    }
+
+    .light .sidebar-scroll::-webkit-scrollbar-thumb:active {
+        background: rgba(139, 92, 246, 0.5);
+    }
+
+    .light .sidebar-scroll {
+        scrollbar-color: rgba(139, 92, 246, 0.15) transparent;
+    }
+
+    /* 滚动条淡入淡出效果 */
+    .sidebar-scroll::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.1) !important;
+        transition: all 0.3s ease;
+    }
+
+    .sidebar-scroll:hover::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.3) !important;
+    }
+
+    .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+        background: rgba(139, 92, 246, 0.5) !important;
+    }
+
+    /* 平滑滚动 */
+    .sidebar-scroll {
+        scroll-behavior: smooth;
+    }
+
+    /* 滚动时显示滚动条 */
+    .sidebar-scroll.scrolling::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.4) !important;
+    }
+
+    /* 浅色主题的滚动条淡入淡出效果 */
+    .light .sidebar-scroll::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.08) !important;
+    }
+
+    .light .sidebar-scroll:hover::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.2) !important;
+    }
+
+    .light .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+        background: rgba(139, 92, 246, 0.4) !important;
+    }
+
+    .light .sidebar-scroll.scrolling::-webkit-scrollbar-thumb {
+        background: rgba(139, 92, 246, 0.3) !important;
+    }
+
+    /* 修复 Ant Design Upload 组件的对齐问题 */
+    .ant-upload {
+        padding-left: 0 !important;
+    }
+
+    /* 智能会话标题样式 */
+    .session-title-container {
+        position: relative;
+        flex: 1;
+        min-width: 0;
+        margin-right: 8px;
+    }
+
+    .session-title {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        transition: all 0.2s ease;
+    }
+
+    /* 智能标题宽度调整 */
+    .session-title {
+        max-width: 100%;
+    }
+
+    /* 当有状态指示器时调整宽度 */
+    .session-title-with-status {
+        max-width: calc(100% - 8px);
+    }
+
+    /* 悬停时为下拉菜单预留空间 */
+    .group:hover .session-title {
+        max-width: calc(100% - 8px);
+    }
+
+    .group:hover .session-title-with-status {
+        max-width: calc(100% - 16px);
+    }
+
+    /* 移除下拉菜单按钮的focus边框 */
+    .ant-dropdown-trigger,
+    .ant-dropdown-trigger:focus,
+    .ant-dropdown-trigger:active,
+    .ant-dropdown-trigger:hover {
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    /* 移除所有按钮的默认focus样式 */
+    button:focus,
+    button:focus-visible,
+    .ant-btn:focus,
+    .ant-btn:focus-visible {
+        outline: none !important;
+        box-shadow: none !important;
+        border-color: transparent !important;
+    }
+
+    /* 移除Antd组件的focus样式 */
+    .ant-dropdown-menu-item:focus,
+    .ant-dropdown-menu-item:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    /* 移除侧边栏按钮的所有focus样式 */
+    .sidebar-dropdown-button,
+    .sidebar-dropdown-button:focus,
+    .sidebar-dropdown-button:focus-visible,
+    .sidebar-dropdown-button:active {
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    /* 通用focus样式移除 */
+    *:focus,
+    *:focus-visible {
+        outline: none !important;
+    }
+
+    /* 保持可访问性，但使用自定义focus样式 */
+    button:focus-visible,
+    .ant-btn:focus-visible {
+        outline: 2px solid transparent !important;
+        box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2) !important;
+        border-radius: 6px;
+    }
+
+    /* 侧边栏下拉按钮特殊处理 */
+    .sidebar-dropdown-button:focus,
+    .sidebar-dropdown-button:focus-visible,
+    .sidebar-dropdown-button:active {
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+
+        --tw-ring-shadow: none !important;
+        --tw-ring-offset-shadow: none !important;
+    }
+
+    .group .ant-btn:focus-visible {
+        box-shadow: none !important;
+    }
+
+    /* AI消息气泡样式 */
+    .ai-message-bubble {
+        background: linear-gradient(135deg, var(--color-bg-secondary) 0%, var(--color-bg-tertiary) 100%);
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--color-border-primary);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.2s ease;
+    }
+
+    .ai-message-bubble:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transform: translateY(-1px);
+    }
+
+    /* AI头像样式 */
+    .ai-avatar {
+        background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%);
+        box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+        transition: all 0.2s ease;
+    }
+
+    .ai-avatar:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+    }
+
+    /* 强制移除Tailwind的ring样式 */
+    .sidebar-dropdown-button {
+        --tw-ring-shadow: 0 0 #0000 !important;
+        --tw-ring-offset-shadow: 0 0 #0000 !important;
+    }
+
+
+
+    /* 消息内容的选择样式 - 更明显的高亮 */
+    .message-content::selection,
+    .message-content *::selection,
+    .prose::selection,
+    .prose *::selection {
+        background: rgba(139, 92, 246, 0.8) !important;
+        color: white !important;
+        text-shadow: none !important;
+    }
+
+    .message-content::-moz-selection,
+    .message-content *::-moz-selection,
+    .prose::-moz-selection,
+    .prose *::-moz-selection {
+        background: rgba(139, 92, 246, 0.8) !important;
+        color: white !important;
+        text-shadow: none !important;
+    }
+
+    /* 用户消息气泡的选择样式 */
+    .bg-tertiary::selection,
+    .bg-tertiary *::selection,
+    .bg-tertiary .message-content::selection,
+    .bg-tertiary .message-content *::selection,
+    div.bg-tertiary::selection,
+    div.bg-tertiary *::selection {
+        background: rgba(139, 92, 246, 0.8) !important;
+        color: white !important;
+        text-shadow: none !important;
+    }
+
+    .bg-tertiary::-moz-selection,
+    .bg-tertiary *::-moz-selection,
+    .bg-tertiary .message-content::-moz-selection,
+    .bg-tertiary .message-content *::-moz-selection,
+    div.bg-tertiary::-moz-selection,
+    div.bg-tertiary *::-moz-selection {
+        background: rgba(139, 92, 246, 0.8) !important;
+        color: white !important;
+        text-shadow: none !important;
+    }
+
+    /* 强制设置消息内容的字体大小 */
+    .message-content,
+    .message-content *,
+    .message-content p,
+    .message-content div,
+    .message-content span {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+    }
+}
+
+/* Import chat view styles */
+@import "../pages/chat/chatview.css";
+
+/* Think bubble styles */
+.think-bubble {
+    background: var(--gradient-accent);
+    border: 2px solid var(--color-accent);
+    border-radius: 1.5rem;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    position: relative;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-style: italic;
+    color: white;
+    font-size: 0.9em;
+    line-height: 1.5;
+    animation: slide-up 0.3s ease-out;
+}
+
+.think-bubble::before {
+    content: "💭";
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    background: var(--color-bg-primary);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-accent);
+}
+
+.think-bubble::after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 22px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #f0f8ff;
+}
+
+.dark .think-bubble {
+    background: linear-gradient(135deg, #1a2332 0%, #16202a 100%);
+    border-color: #4a5568;
+    color: #a0aec0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark .think-bubble::before {
+    border-bottom-color: #4a5568;
+}
+
+.dark .think-bubble::after {
+    border-bottom-color: #1a2332;
+}
+
+/* @layer base {
+    body {
+      @apply dark:bg-slate-800 dark:text-white;
+    }
+  } */
+
+/* Import Open Sans font */
+@font-face {
+    font-family: "Open Sans";
+    src: url("./Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf")
+        format("truetype-variations");
+    font-weight: 300 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf")
+        format("truetype-variations");
+    font-weight: 300 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+html {
+    /* display: table; */
+    margin: auto;
+    height: 100%;
+    font-family: "Segoe UI", "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100%;
+    font-size: 0.8rem; /* Ensure consistent font size */
+    font-family: "Segoe UI", "Open Sans", sans-serif;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@supports (padding: env(safe-area-inset-bottom)) {
+    body {
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
+
+/* 移除全局字体大小限制，让组件自己控制字体大小 */
+/* * {
+    font-size: 0.9rem;
+} */
+
+/* @import "antd/dist/antd.css"; */
+
+.element.style {
+    left: 0%;
+    width: 100%;
+}
+.ant-slider-track {
+    background-color: #2a2a2a !important;
+    background: #2a2a2a !important;
+}
+.ant-slider-rail {
+    @apply bg-secondary !important;
+}
+.ant-slider-handle {
+    border-color: #2a2a2a !important;
+}
+.ant-slider-handle:hover {
+    border-color: #3a3a3a !important;
+    filter: brightness(1.1) !important;
+}
+
+.ant-switch-checked {
+    background-color: #2a2a2a !important;
+    background: #2a2a2a !important;
+    @apply text-gray-700 !important;
+}
+.ant-switch {
+    background-color: #3a3a3a;
+    border: grey;
+    @apply text-gray-700 !important;
+}
+
+/* .ant-modal-content {
+  @apply dark:bg-primary dark:text-primary;
+}
+.ant-modal-footer {
+  @apply border-secondary;
+}
+.ant-modal-header,
+.ant-modal-close {
+  @apply bg-secondary text-primary hover:text-primary    transition duration-200;
+}
+.ant-modal-title,
+.ant-modal-header {
+  @apply bg-primary text-primary;
+} */
+a:hover {
+    @apply text-accent;
+}
+/* .iiz__img,
+  iiz__zoom-img {
+    @apply w-full;
+  } */
+
+.ant-radio-checked .ant-radio-inner {
+    @apply border-accent !important;
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+    @apply bg-accent !important;
+}
+
+.ant-radio:hover .ant-radio-inner {
+    @apply border-accent !important;
+}
+
+.loadbar:after {
+    content: "";
+    /* width: 40px; */
+    height: 3px;
+    /* background: red; */
+
+    position: absolute;
+    animation: loader 2s;
+    -webkit-animation: loader 2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    bottom: 0px;
+    @apply rounded-b bg-accent;
+
+    margin-left: 0;
+}
+
+@keyframes loader {
+    0% {
+        width: 0%;
+        left: 0;
+        right: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    99% {
+        width: 0%;
+        left: 100%;
+        right: 0;
+    }
+}
+
+@-webkit-keyframes loader {
+    0% {
+        width: 0%;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    99% {
+        width: 0%;
+        left: 100%;
+        right: 0;
+    }
+}
+.scroll::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    opacity: 0; /* Make scrollbar fully transparent by default */
+    transition: opacity 0.25s ease; /* Transition for the opacity */
+}
+
+.scroll:hover::-webkit-scrollbar {
+    opacity: 1; /* Make scrollbar fully opaque on hover */
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    @apply bg-accent;
+    border-radius: 20px;
+    border: 3px solid rgb(214, 214, 214);
+}
+
+.dark .scroll-gradient {
+}
+
+.light .scroll-gradient {
+}
+
+.scroll-gradient {
+    position: sticky;
+    top: 0;
+    height: 15px;
+    z-index: 2; /* Above the content but below the scrollbar */
+    pointer-events: none; /* So it doesn't block interaction with the content */
+}
+
+.vega-embed {
+    @apply bg-primary rounded !important;
+}
+
+.ant-upload-list,
+.ant-upload-hint,
+.ant-upload-list-text,
+.ant-upload-text,
+.ant-upload-text-icon {
+    @apply text-primary !important;
+}
+
+.ant-upload {
+    @apply text-primary px-2  !important;
+    border-radius: 4px !important;
+}
+.ant-upload:hover {
+    @apply border-accent !important;
+}
+.ant-upload-drag-container,
+.ant-upload-text,
+.ant-btn,
+.ant-select,
+.ant-select > span,
+.ant-select-selector,
+.ant-form-item-required,
+.ant-upload-hint {
+    @apply text-primary !important;
+}
+
+.ant-upload-list-item:hover,
+.ant-upload-list-item-info:hover {
+    @apply bg-secondary text-accent !important;
+}
+.ant-pagination .ant-pagination-item,
+.ant-select-selector,
+.ant-btn-variant-outlined {
+    @apply bg-primary  !important;
+}
+.ant-pagination .ant-pagination-item-active a {
+    @apply text-accent  !important;
+}
+.ant-pagination .ant-pagination-item-active {
+    @apply border-accent text-accent !important;
+}
+.ant-pagination .ant-pagination-item a,
+.ant-pagination-item-link .anticon {
+    @apply text-primary !important;
+}
+.ant-collapse-expand-icon .anticon {
+    @apply text-primary !important;
+}
+.ant-modal-content {
+    @apply dark:bg-primary dark:text-primary !important;
+}
+.ant-modal-footer {
+    @apply border-secondary !important;
+}
+.ant-btn,
+.ant-select-arrow,
+.ant-btn:hover {
+    @apply text-primary !important;
+}
+
+:where(.ant-btn).ant-btn-compact-item.ant-btn-primary:not([disabled])
+    + .ant-btn-compact-item.ant-btn-primary:not([disabled]):before {
+    @apply bg-secondary !important;
+}
+.ant-btn-primary {
+    @apply bg-accent text-white !important;
+}
+.ant-btn-primary:hover {
+    @apply bg-accent text-white drop-shadow-md !important;
+}
+.ant-modal-close {
+    @apply text-primary   duration-200   !important;
+}
+
+.ant-radio,
+.ant-collapse,
+.ant-collapse-header-text,
+.ant-collapse-content-box,
+.ant-collapse-content,
+.ant-radio-wrapper {
+    @apply text-primary !important;
+}
+.ant-collapse-borderless > .ant-collapse-item {
+    @apply border-secondary !important;
+}
+
+.ant-skeleton-paragraph > li {
+    @apply bg-secondary !important;
+}
+
+.ant-drawer-content,
+.ant-drawer-header,
+.ant-drawer-header-title,
+.ant-drawer-close,
+.ant-drawer-title {
+    @apply bg-primary text-primary !important;
+}
+
+.ant-dropdown-menu {
+    max-height: 250px;
+    overflow: auto;
+    @apply scroll !important;
+}
+
+.ant-collapse {
+    @apply bg-secondary border-primary !important;
+}
+
+.ant-collapse-header {
+    @apply bg-secondary text-primary border-primary !important;
+}
+
+.ant-collapse-content {
+    @apply bg-primary border-primary !important;
+}
+
+.ant-collapse-item {
+    @apply border-primary !important;
+}
+
+/* .ant-radio-input::before {
+    @apply bg-primary !important;
+  } */
+
+.prose > pre {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.prose p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.monaco-editor,
+.monaco-scrollable-element,
+.overflow-guard {
+    @apply rounded !important;
+}
+
+/* div.chatbox > ul {
+    list-style: disc !important;
+  }
+  div.chatbox > ul,
+  div.chatbox > ol {
+    padding-left: 20px !important;
+    margin: 0px !important;
+  }
+  div.chatbox > ol {
+    list-style: decimal !important;
+  } */
+
+div#___gatsby,
+div#gatsby-focus-wrapper {
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+/* Think bubble animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+}
+
+.think-bubble-content {
+    overflow: hidden;
+}
+
+/* Smooth transitions for think bubble */
+.think-bubble-header {
+    transition: background-color 0.2s ease;
+}
+
+/* Shimmer animation for thinking state */
+@keyframes shimmer {
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: calc(200px + 100%) 0;
+    }
+}
+
+.shimmer {
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+    );
+    background-size: 200px 100%;
+    animation: shimmer 2s infinite;
+}
