@@ -2,7 +2,7 @@
 
 DrSai-Rongzai is a deployable worker + UI project for powder neutron diffraction refinement workflows.
 
-This repository now supports local login/registration by default and removes hard dependency on SSO page flow.
+This repository now supports local login/registration.
 
 ## 1. Architecture
 
@@ -48,7 +48,7 @@ When you redistribute this repository, please:
 git clone <your-repo-url> DrSai-Rongzai
 cd DrSai-Rongzai
 
-conda create -n drsai-rongzai python=3.11
+conda create -n drsai-rongzai
 conda activate drsai-rongzai
 pip install -r requirements.txt
 
