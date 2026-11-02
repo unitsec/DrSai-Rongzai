@@ -37,7 +37,6 @@ test_datesets/*
 *.cif
 *.png
 *.lst
-*.txt
 *.csv
 
 tools/GSAS-II-master/GSASII/0data_test/*

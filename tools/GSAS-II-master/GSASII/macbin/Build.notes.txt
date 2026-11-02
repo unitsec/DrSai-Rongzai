@@ -1,0 +1,74 @@
+Created 2024-06-28T23:11:09.282932 on Mac-1719613458440.local by user "runner"
+
+Platform mac_ver: 13.6.7 on x86_64
+Platform uname: ['Darwin', 'Mac-1719613458440.local', '22.6.0', 'Darwin Kernel Version 22.6.0: Mon Apr 22 20:54:28 PDT 2024; root:xnu-8796.141.3.705.2~1/RELEASE_X86_64', 'x86_64', 'i386']
+CONDA_PREFIX: /Users/runner/miniconda3/envs/build
+
+	Python: 3.11.9
+	numpy: 1.26.4
+
+	Variable FCompiler = "gfortran"
+	Variable FORTpath = "/usr/local/bin"
+	Variable FORTflags = " -w -O2 -m64"
+	Variable F2PYflags = "--fcompiler=gnu95 --f77exec=gfortran --f77flags="-fno-range-check -m64" -I/Users/runner/work/GSAS-II-buildtools/GSAS-II-buildtools/_gsas2/sources"
+	Variable F2PYpath = "/Users/runner/miniconda3/envs/build/bin"
+	Variable F2PYsuffix = ".so"
+	Variable LDFLAGS = "-undefined dynamic_lookup -bundle -static-libgcc -static-libgfortran -arch x86_64 -m64"
+Built from G2 version 55e2243 best incomm mag str fctr fxn yet
+python                    3.11.9          h657bba9_0_cpython    conda-forge
+numpy                     1.26.4          py311hc43a94b_0    conda-forge
+Using gfortran, info follows
+Using built-in specs.
+COLLECT_GCC=gfortran
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@12/12.4.0/bin/../libexec/gcc/x86_64-apple-darwin22/12/lto-wrapper
+Target: x86_64-apple-darwin22
+Configured with: ../configure --prefix=/usr/local/opt/gcc@12 --libdir=/usr/local/opt/gcc@12/lib/gcc/12 --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-12 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-zstd=/usr/local/opt/zstd --with-pkgversion='Homebrew GCC 12.4.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=x86_64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk --with-ld=/Library/Developer/CommandLineTools/usr/bin/ld-classic
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.4.0 (Homebrew GCC 12.4.0) 
+### Dependencies
+../AllBinaries/mac_64_p3.11_n1.26/Build.notes.txt: is not an object file
+../AllBinaries/mac_64_p3.11_n1.26/LATTIC:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/convcell:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/fmask.so:
+	fmask.so (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1336.0.0)
+../AllBinaries/mac_64_p3.11_n1.26/histogram2d.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/histosigma2d.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/kvec_general.cpython-311-darwin.so:
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/libquadmath.0.dylib:
+	/usr/local/opt/gcc@12/lib/gcc/12/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/pack_f.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/polymask.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/pydiffax.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/pypowder.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/pyspg.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/pytexture.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/spotmask.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)
+../AllBinaries/mac_64_p3.11_n1.26/unpack_cbf.cpython-311-darwin.so:
+	@rpath/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1319.100.3)

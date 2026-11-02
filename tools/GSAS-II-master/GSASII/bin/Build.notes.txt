@@ -1,0 +1,112 @@
+Created 2024-06-28T23:09:01.979934 on fv-az659-747 by user "runner"
+
+Platform uname: ['Linux', 'fv-az659-747', '6.5.0-1022-azure', '#23~22.04.1-Ubuntu SMP Thu May  9 17:59:24 UTC 2024', 'x86_64', 'x86_64']
+CONDA_PREFIX: /home/runner/miniconda3/envs/build
+
+	Python: 3.11.9
+	numpy: 1.26.4
+
+	Variable FCompiler = "gfortran"
+	Variable FORTpath = "/usr/bin"
+	Variable FORTflags = " -w -O2 -fPIC -m64"
+	Variable F2PYflags = "--fcompiler=gnu95 --f77exec=gfortran --f77flags="-fno-range-check -m64" -I/home/runner/work/GSAS-II-buildtools/GSAS-II-buildtools/_gsas2/sources"
+	Variable F2PYpath = "/home/runner/miniconda3/envs/build/bin"
+	Variable F2PYsuffix = ".so"
+	Variable LDFLAGS = ""
+Built from G2 version 55e2243 best incomm mag str fctr fxn yet
+python                    3.11.9          hb806964_0_cpython    conda-forge
+numpy                     1.26.4          py311h64a7726_0    conda-forge
+Using gfortran, info follows
+Using built-in specs.
+COLLECT_GCC=gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 12.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-ALHxjy/gcc-12-12.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.0 (Ubuntu 12.3.0-1ubuntu1~22.04) 
+### Dependencies
+../AllBinaries/linux_64_p3.11_n1.26/fmask.so:
+	linux-vdso.so.1 (0x00007ffd64211000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f89ffc00000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f89ffe7b000)
+../AllBinaries/linux_64_p3.11_n1.26/histogram2d.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007fffc9306000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f315ae00000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f315b0f7000)
+../AllBinaries/linux_64_p3.11_n1.26/histosigma2d.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007ffed49d1000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fe3e6200000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fe3e647e000)
+../AllBinaries/linux_64_p3.11_n1.26/kvec_general.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007fffba38d000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f1642800000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f1642c34000)
+../AllBinaries/linux_64_p3.11_n1.26/pack_f.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007ffd71516000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fce98e00000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fce99213000)
+../AllBinaries/linux_64_p3.11_n1.26/polymask.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007ffc689f6000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f4f4a800000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f4f4ab4a000)
+../AllBinaries/linux_64_p3.11_n1.26/pydiffax.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007ffc9dbf6000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007f9044a00000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f9044db1000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f9044600000)
+	libquadmath.so.0 => /lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007f9044d69000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f9044d49000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f9044f7e000)
+../AllBinaries/linux_64_p3.11_n1.26/pypowder.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007ffc6a6dd000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007f04eac00000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f04eab19000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f04ea800000)
+	libquadmath.so.0 => /lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007f04eaad1000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f04eaee2000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f04eaf35000)
+../AllBinaries/linux_64_p3.11_n1.26/pyspg.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007ffe0a943000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007fc300c00000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fc300f51000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fc300800000)
+	libquadmath.so.0 => /lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007fc300f09000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fc300ee9000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fc301058000)
+../AllBinaries/linux_64_p3.11_n1.26/pytexture.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007ffc329a3000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007fe7b1a00000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fe7b1db2000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fe7b1600000)
+	libquadmath.so.0 => /lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007fe7b1d6a000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fe7b1d4a000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fe7b1eb5000)
+../AllBinaries/linux_64_p3.11_n1.26/spotmask.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007fff4edb0000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fd8b1200000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fd8b148a000)
+../AllBinaries/linux_64_p3.11_n1.26/unpack_cbf.cpython-311-x86_64-linux-gnu.so:
+	linux-vdso.so.1 (0x00007f4cfb00a000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007f4cfac00000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f4cfa800000)
+	libquadmath.so.0 => /lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007f4cfafa6000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f4cfab19000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f4cfaf86000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f4cfb00c000)
+	linux-vdso.so.1 (0x00007fff87395000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007fb1d7600000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fb1d7519000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fb1d7200000)
+	libquadmath.so.0 => /lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007fb1d74d1000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fb1d78eb000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fb1d792e000)
+	linux-vdso.so.1 (0x00007ffc0f340000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007fbafc000000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fbafbf19000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fbafbc00000)
+	libquadmath.so.0 => /lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007fbafc36f000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fbafc34f000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fbafc3cd000)
