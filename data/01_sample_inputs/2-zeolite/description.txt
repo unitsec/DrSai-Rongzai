@@ -1,0 +1,5 @@
+Sample description:
+Zeolite A powder (NIST RM 8851), a reference material characterized for chemical composition, unit-cell parameters, and particle-size distribution, was used as received.
+
+Instrument description:
+Time-of-flight neutron powder diffraction data were collected using the TREND diffractometer at the China Spallation Neutron Source (CSNS), Dongguan, China, and the detector bank centered at 2θ=90.0° with a total flight path of 79.2 m was used for the present analysis.

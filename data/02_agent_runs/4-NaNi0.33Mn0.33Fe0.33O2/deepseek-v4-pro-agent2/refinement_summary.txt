@@ -1,0 +1,63 @@
+====================================================================
+  GSAS-II Rietveld精修汇总报告
+====================================================================
+
+任务名称: NFM_Refinement
+用户: liqm@ihep.ac.cn
+任务开始时间: 2026-10-08 16:19:50 (CST) / 2026-10-08 08:19:50 (UTC)
+任务结束时间: 2026-10-08 16:36:43 (CST) / 2026-10-08 08:36:43 (UTC)
+总耗时: 1013 秒 (约 16分53秒)
+
+数据文件: RUN0001900_groupBM.dat
+仪器文件: groupBM_2025.instprm
+结构文件: NFMnew.cif
+
+晶体结构信息:
+  空间群: R-3m (No.166)
+  化学式: NaMn(1/3)Fe(1/3)Ni(1/3)O2
+  晶胞参数:
+    a = 2.979709 Å
+    c = 16.008965 Å
+    α = 90.000°, β = 90.000°, γ = 120.000°
+    V = 123.095 Å³
+
+原子参数:
+  O6c  (0,0,0.23230)  Uiso=0.00833  Occ=1.000
+  Na3a (0,0,0)        Uiso=0.01352  Occ=1.000
+  Mn3b (0,0,0.5)      Uiso=0.00507  Occ=0.333
+  Fe3b (0,0,0.5)      Uiso=0.00507  Occ=0.333
+  Ni3b (0,0,0.5)      Uiso=0.00507  Occ=0.333
+  (Mn/Fe/Ni Uiso constrained to equal)
+
+====================================================================
+  Rwp变化记录:
+====================================================================
+  Round 1 (init_001):      Rwp = 21.21% [scale]
+  Round 2 (round1_scale_cell): Rwp = 15.82% [scale+cell]
+  Round 3 (round3_alpha):  Rwp =  8.86% [scale+cell+alpha]
+  Round 4 (round6_atoms):  Rwp =  8.35% [scale+cell+alpha+atoms]
+  Round 5 (round7_absorption): Rwp = 8.20% [scale+cell+alpha+atoms+absorption]
+  Round 6 (round8_background): Rwp = 7.90% [scale+cell+alpha+atoms+absorption+background]
+  Round 7 (round9_constraint): Rwp = 7.90% [scale+cell+alpha+atoms+absorption+background+constraints]
+
+====================================================================
+  最终精修指标:
+====================================================================
+  wR (Rwp):           7.90%
+  R:                  5.25%
+  R-bkg:              8.65%
+  GOF:                2.93
+  RF:                 5.26%
+  RF²:                9.85%
+  Durbin-Watson:      0.183
+  wRmin:              2.70%
+
+  吸收系数: 0.0407
+  Scale因子: 354.5058
+
+  仪器参数 (精修后):
+    2θ: 177.000°
+    alpha: 0.018325
+    Zero: 0.322274
+
+====================================================================

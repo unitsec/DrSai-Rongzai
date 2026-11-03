@@ -1,0 +1,50 @@
+===========================================================================
+LaB6 Neutron Powder Diffraction - Rietveld Refinement Report
+===========================================================================
+Data file:      RUN0001239_groupBM.gsa
+Instrument:     groupBM_2025.instprm
+Structure:      LaB6, Space Group Pm-3m (#221)
+Task start:     2026-10-08 13:44:57 (session init)
+Task end:       2026-10-08 14:17:06 (last refinement)
+Total elapsed:  31.2 min (wall clock)
+User wait time: ~23.1 min (between R8 and R9)
+Active time:    ~8.1 min
+===========================================================================
+
+ALL REFINEMENT ROUNDS (including failed/rejected):
+------------------------------------------------------------------------
+Round       Rwp(%)             Parameters    Status                 Time
+------------------------------------------------------------------------
+R0 (init)         7.61             scale only   success             13:45:57
+R1 (cell)         7.15                  +cell   success             13:46:38
+R2 (alpha)       100.00      +alpha (DIVERGED)    FAILED             13:47:43
+R3 (uiso)         6.26       +Uiso (neg Uiso) rejected (neg Uiso)             13:48:07
+R4 (abs+uiso)         6.25        +abs+Uiso (neg) rejected (neg Uiso)             13:49:11
+R5 (abs only)         6.86            +absorption   success             13:49:42
+R6 (uiso from 0)         6.25           +Uiso from 0   success             13:50:04
+R7 (B x pos)         6.25          +B x position   success             13:51:18
+R8 (bkg 6coeff)         6.14          +bkg 6 coeffs   success             13:51:55
+R9 (sig)         7.88           +sig (STUCK)    FAILED             14:15:02
+R10 (rm bkg 8c)         6.11    -fixed bkg +8 coeff   success             14:15:32
+R11 (re-refine)         6.11              re-refine   success             14:16:11
+R12 (fix abs)         6.10         fix absorption      BEST             14:17:06
+------------------------------------------------------------------------
+
+BEST RESULT (Round 12: fix absorption):
+  Rwp = 6.10%
+  RF  = 16.37%
+  Durbin-Watson = 0.304
+  Space Group: Pm-3m (#221)
+  a = b = c = 4.15636 Angstrom
+  alpha = beta = gamma = 90 deg
+  Volume = 71.80 Angstrom^3
+  La at (0, 0, 0),       Uiso = +0.00124
+  B  at (0.19964,0.5,0.5), Uiso = -0.00290
+  Scale = 190.7, Absorption = 0.356
+
+Failed rounds:
+  R2 (alpha):  diverged (Rwp=100%, nan chi^2)
+  R9 (sig):    stuck (Rwp=7.88%, sig params highly correlated)
+Rejected rounds:
+  R3 (uiso):   negative Uiso too large (-0.008, -0.010)
+  R4 (abs+uiso): negative Uiso (-0.009, -0.010)

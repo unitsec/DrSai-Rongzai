@@ -1,0 +1,140 @@
+GSAS-II refinement summary
+source gpx : D:\BaiduSyncdisk\Research\My_ongoing_research_or_work\AI_BeamLineScientist\rongzai_agent_paper\revision\data\zeolite\消融实验\无专家知识\step5_abs_001.gpx
+histograms : 1 refinement + 2 auto-background
+  - PWDR RUN0000410_groupSE.gsa   type=PNT   Rwp=2.7112268942426674
+  - PWDR Autobkg for RUN0000410_groupSE.gsa   type=PNT   Rwp=None
+  - PWDR Autobkg for RUN0000410_groupSE.gsa   type=PNT   Rwp=None
+  [PWDR RUN0000410_groupSE.gsa] fit range 40000.0 .. 138647.28   used 1244 of 2101
+
+phases: 1
+
+[Phase_1]  atoms=14
+  cell: a=24.801761 b=24.801761 c=24.801761 alpha=90.0000 beta=90.0000 gamma=90.0000 V=15256.2409
+  esd : a=0.000364 b=0.000364 c=0.000364 alpha=0.000000 beta=0.000000 gamma=0.000000 V=0.672501
+  label      type   x            y            z            occ      Uiso     flags
+  Si1        Si     -0.055048    0.125372     0.036068     1.0000   0.01786  XU
+  Na2        Na     0.048504     0.048504     0.048504     0.6600   0.01102  XU
+  Na3        Na     0.060133     0.060133     0.060133     0.2500   0.01596  XU
+  Na4        Na     0.233646     0.233646     0.233646     0.9700   0.03204  XU
+  Na5        Na     0.470949     0.312461     0.180113     0.1100   0.02938  XU
+  Na6        Na     0.414008     0.272138     0.202868     0.1100   0.02128  XU
+  Na61       Na     0.459664     0.357854     0.100303     0.0900   0.02128  XU
+  Na1        Na     0.000000     0.000000     0.000000     0.1800   0.04028  XU
+  Si2        Si     -0.063782    0.057006     0.133645     0.0800   0.01849  XU
+  Al2        Al     -0.055630    0.038574     0.124215     0.9200   0.01849  XU
+  O1         O      -0.106058    0.001397     0.103801     1.0000   0.03128  XU
+  O2         O      -0.001589    -0.002638    0.141264     1.0000   0.03103  XU
+  O3         O      -0.032782    0.077313     0.073167     1.0000   0.03306  XU
+  O4         O      -0.068387    0.072653     0.179535     1.0000   0.03002  XU
+
+varyList (110):
+  0::A0
+  0::dAx:0
+  0::dAy:0
+  0::dAz:0
+  0::AU11:0
+  0::AU22:0
+  0::AU33:0
+  0::AU12:0
+  0::AU13:0
+  0::AU23:0
+  0::dAx:1
+  0::AU11:1
+  0::AU12:1
+  0::dAx:2
+  0::AU11:2
+  0::AU12:2
+  0::dAx:3
+  0::AU11:3
+  0::AU12:3
+  0::dAx:4
+  0::dAy:4
+  0::dAz:4
+  0::AU11:4
+  0::AU22:4
+  0::AU33:4
+  0::AU12:4
+  0::AU13:4
+  0::AU23:4
+  0::dAx:5
+  0::dAy:5
+  0::dAz:5
+  0::AU11:5
+  0::AU22:5
+  0::AU33:5
+  0::AU12:5
+  0::AU13:5
+  0::AU23:5
+  0::dAx:6
+  0::dAy:6
+  0::dAz:6
+  0::AU11:6
+  0::AU22:6
+  0::AU33:6
+  0::AU12:6
+  0::AU13:6
+  0::AU23:6
+  0::AU11:7
+  0::AU12:7
+  0::dAx:8
+  0::dAy:8
+  0::dAz:8
+  0::AU11:8
+  0::AU22:8
+  0::AU33:8
+  0::AU12:8
+  0::AU13:8
+  0::AU23:8
+  0::dAx:9
+  0::dAy:9
+  0::dAz:9
+  0::AU11:9
+  0::AU22:9
+  0::AU33:9
+  0::AU12:9
+  0::AU13:9
+  0::AU23:9
+  0::dAx:10
+  0::dAy:10
+  0::dAz:10
+  0::AU11:10
+  0::AU22:10
+  0::AU33:10
+  0::AU12:10
+  0::AU13:10
+  0::AU23:10
+  0::dAx:11
+  0::dAy:11
+  0::dAz:11
+  0::AU11:11
+  0::AU22:11
+  0::AU33:11
+  0::AU12:11
+  0::AU13:11
+  0::AU23:11
+  0::dAx:12
+  0::dAy:12
+  0::dAz:12
+  0::AU11:12
+  0::AU22:12
+  0::AU33:12
+  0::AU12:12
+  0::AU13:12
+  0::AU23:12
+  0::dAx:13
+  0::dAy:13
+  0::dAz:13
+  0::AU11:13
+  0::AU22:13
+  0::AU33:13
+  0::AU12:13
+  0::AU13:13
+  0::AU23:13
+  :0:Back;0
+  :0:Back;1
+  :0:Back;2
+  :0:Back;3
+  :0:Back;4
+  :0:Back;5
+  :0:Scale
+  :0:Absorption

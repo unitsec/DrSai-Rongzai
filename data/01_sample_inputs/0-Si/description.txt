@@ -1,0 +1,5 @@
+Sample description:
+Silicon powder (NIST SRM 640g), a certified line-position and line-shape reference standard for powder diffraction, was used as received.
+
+Instrument description:
+Time-of-flight neutron powder diffraction data were collected using the Multi-Physics Instrument (MPI) at the China Spallation Neutron Source (CSNS), Dongguan, China, and the detector bank centered at 2θ=95.0° with a total flight path of 30.0 m was used for the present analysis.

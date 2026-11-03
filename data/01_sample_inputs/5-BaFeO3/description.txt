@@ -1,0 +1,5 @@
+Sample description:
+Polycrystalline 12R-BaFeO₃ was synthesized from BaCO₃ and Fe₂O₃ via solid-state reaction at 1273 K for 12 h under flowing oxygen, followed by oxidation with KClO₄ in a sealed platinum capsule at 2–3 GPa and 1273 K for 30 min, quenching to room temperature, and washing with distilled water.
+
+Instrument description:
+Room-temperature time-of-flight neutron powder diffraction data were collected at 300 K using the POLARIS diffractometer at the ISIS Neutron and Muon Source, UK, with the powder sample sealed in a vanadium can.

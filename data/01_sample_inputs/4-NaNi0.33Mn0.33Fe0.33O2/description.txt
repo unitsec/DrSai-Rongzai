@@ -1,0 +1,5 @@
+Sample description:
+O3-type NaNi₁/₃Mn₁/₃Fe₁/₃O₂ (NFM) was synthesized by mixing coprecipitated Ni₁/₃Fe₁/₃Mn₁/₃(OH)₂ with Na₂CO₃ at a 2:1.1 atomic ratio for 24 h, followed by calcination in air at 850 °C for 20 h with a heating rate of 3 °C min⁻¹ and natural cooling to room temperature.
+
+Instrument description:
+Time-of-flight neutron powder diffraction data were collected using the TREND diffractometer at the China Spallation Neutron Source (CSNS), Dongguan, China, and the backscattering detector bank centered at 2θ=177.0∘ with a total flight path of 80.0027 m was used for the present analysis.

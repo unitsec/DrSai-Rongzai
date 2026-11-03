@@ -1,0 +1,25 @@
+================================================================================
+BFO Rietveld Refinement Report (v2 - continuous)
+================================================================================
+
+Start: 2026-10-09 10:18:30
+End: 2026-10-09 10:30:13
+Total: 11.7 min (703 s)
+
+--------------------------------------------------------------------------------
+#   Parameters                         Rwp(%)    Task ID
+--------------------------------------------------------------------------------
+1   Initialize (scale only, full range)12.3800   init_v2
+2   Scale only (limits 5000-19912us)   16.4515   r1_adj_limits
+3   Scale + Cell                       15.0577   r2_scale_cell
+4   + X (instrument)                   10.0785   r3_inst_x
+5   + Alpha (instrument)               5.7150    r4_inst_alpha
+6   + Beta (instrument)                3.9707    r5_inst_beta
+7   + Sig (instrument)                 3.8969    r6_inst_sig
+8   + Atoms XU                         2.8036    r7_atoms_xu
+9   + Absorption                       2.7762    r8_absorption
+10  + Background (Final)               2.5980    r9_background
+--------------------------------------------------------------------------------
+
+Final Rwp = 2.5980%  |  GOF = 1.66  |  Durbin-Watson = 1.109
+Cell: a=9.871 b=5.690 c=9.877 beta=109.283  Space: C 2/m

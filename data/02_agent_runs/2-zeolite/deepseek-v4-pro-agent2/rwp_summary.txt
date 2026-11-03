@@ -1,0 +1,59 @@
+Zeolite Neutron Diffraction GSAS-II Rietveld Refinement Report
+===============================================================
+
+Data: RUN0000410_groupSE.gsa (BL SE detector)
+Instrument: groupSE_2025.instprm
+Structure: zeolite.cif (Space Group: F d -3, No. 203)
+Refinement Date: 2026-10-08
+
+=================================================================
+Rwp Progression (Effective 7 Rounds):
+=================================================================
+Round 1: Rwp = 7.87% | Time = 25.542s (Initial, scale only)
+Round 2: Rwp = 8.19% | Time =  3.369s (Scale + Cell, limits 25000-138647 us)
+Round 3: Rwp = 7.86% | Time =  4.014s (Alpha + Beta instrument parameters)
+Round 4: Rwp = 7.57% | Time =  4.102s (All atom positions X)
+Round 5: Rwp = 6.79% | Time =  3.959s (Si2/Al2 constraint fix)
+Round 6: Rwp = 5.62% | Time =  7.166s (All atom Uiso thermal parameters)
+Round 7: Rwp = 3.70% | Time =  3.742s (Background, 6 Chebyshev coeffs) [FINAL]
+
+=================================================================
+Timing Summary:
+=================================================================
+Method: Wall clock = (last refinement end timestamp) - (session start timestamp)
+
+Session start timestamp:           2026-10-08 14:40:44
+Last refinement end timestamp:     2026-10-08 14:57:08
+Total wall clock elapsed:          984s = 16.41 min
+User waiting time to subtract:       0s (fully automated, no interruption)
+Effective (net) total time:         984s = 16.41 min
+
+Total refinement execution sum:    83.620s (12 rounds including 5 reverted)
+Overhead (plot analysis + thinking + I/O): ~900s
+
+=================================================================
+Final Refinement Results:
+=================================================================
+Rwp = 3.70%
+Rp = 2.92%
+Chi**2 = 2.2701e+06
+GOF = 36.52
+Durbin-Watson = 0.116
+RF = 4.86%
+RF^2 = 6.84%
+
+Final Cell: a = b = c = 24.806652 A, alpha = beta = gamma = 90.000 deg
+Volume = 15265.270 A^3, Space Group: F d -3 (No. 203)
+
+=================================================================
+Key Refinement Decisions:
+=================================================================
+1. TOF limits adjusted from [16996-138647] to [25000-138647] us
+   (reduced computation time by removing dense low-TOF region)
+2. Sig parameters attempted but reverted (sig-0 went negative,
+   99% correlation with sig-q)
+3. Si2/Al2 share same site, occupancy constraint sum=1.0
+4. Occupancy refinement attempted but caused unphysical negative
+   Uiso for Na1 and Al2 - reverted
+5. Background-only refinement on top of Uiso-refined structure
+   gave the best physically reasonable result.

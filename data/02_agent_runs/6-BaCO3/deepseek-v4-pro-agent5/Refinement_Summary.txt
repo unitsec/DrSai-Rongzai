@@ -1,0 +1,43 @@
+======================================================================
+    GSAS-II Rietveld Refinement Summary Report
+    Sample: BaCO3 (使用BaCO3.cif模型)
+    Data: RUN0002390_groupHA.dat (CSNS TREND)
+======================================================================
+
+Start Time: 2026-10-09T10:47:50
+End Time:   2026-10-09T11:19:35
+Total Elapsed Time: 1905 seconds (31 min 45 sec)
+
+----------------------------------------------------------------------
+Round  Description                                                     Rwp
+----------------------------------------------------------------------
+  1    Round 1 (初始化-scale)                                       45.44%
+  2    Round 2 (scale+cell)                                      43.99%
+  3    Round 3 (scale+cell+alpha)                                42.09%
+  4    Round 4 (scale+cell+alpha+sig)                            34.37%
+  5    Round 5 (scale+cell+alpha+sig+atoms)                      30.52%
+  6    Round 6 (scale+cell+alpha+sig+atoms+absorption)           11.87%
+  7    Round 7 (scale+cell+alpha+sig+atoms+absorption+background)   7.51%
+----------------------------------------------------------------------
+
+Final Refinement Results:
+  Space Group: P n m a (No.62)
+  a = 6.433756 Å
+  b = 5.313915 Å
+  c = 8.904820 Å
+  α = β = γ = 90.000°
+  Volume = 304.442 Å³
+
+Atom Positions (final):
+  Ba0: x=0.24658, y=0.75000, z=0.58362, Uiso=0.00522
+  C1:  x=0.07973, y=0.75000, z=0.24393, Uiso=0.00914
+  O2:  x=0.08118, y=0.54053, z=0.31565, Uiso=0.01406
+  O3:  x=0.08814, y=0.75000, z=0.09970, Uiso=0.01620
+
+Fit Quality:
+  Final Rwp = 7.51%
+  Final χ²  = 247111
+  GoF = 7.69
+  RF² = 10.58%
+  Durbin-Watson = 0.088
+  Scale = 192.15, Absorption = 0.0234

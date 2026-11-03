@@ -1,0 +1,31 @@
+======================================================================
+Y2O3 Rietveld Refinement Summary (GSAS-II)
+======================================================================
+
+Task start time: 2026-10-09 11:31:07
+Task end time:   2026-10-09 11:42:12
+Total time: 11 min 5 sec (665 sec)
+
+----------------------------------------------------------------------
+Round   Rwp (%)     Parameters
+----------------------------------------------------------------------
+1       12.053        scale+cell
+2       12.053        scale+cell(converged)
+3       11.981        scale+cell+O2_X
+4       11.981        scale+cell+O2_X+Y0_X
+5       9.749        scale+cell+O2_XU+Y0_XU
+6       9.683        scale+cell+O2_XU+Y0_XU+Y1_U
+7       9.261        scale+cell+atoms+alpha
+8       8.630        scale+cell+atoms+alpha+abs
+9       5.810        scale+cell+atoms+alpha+abs+bkg
+----------------------------------------------------------------------
+
+Final Parameters (Round 9):
+  Space Group: Ia-3 (No.206), Cubic
+  a = 10.60447 A
+  Y0 (24d): z=0.28240, Uiso=0.00316
+  Y1 (8b): Uiso=0.00337
+  O2 (48e): x=0.09788, y=0.35945, z=0.13001, Uiso=0.00394
+  Alpha: 0.03078
+  Absorption: 0.0533
+  Rwp = 5.81%, Rp = 4.30%, GOF = 5.81

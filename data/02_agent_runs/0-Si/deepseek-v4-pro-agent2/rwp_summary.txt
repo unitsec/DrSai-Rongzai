@@ -1,0 +1,35 @@
+================================================================================
+   Si Rietveld Refinement — Rwp History (Complete 11 Rounds)
+   BL16 / RUN0023568 / group5 / Si.cif
+================================================================================
+
+[Timeline]
+  Task issued    : 2026-10-08 10:19:55
+  Round 1 done   : 2026-10-08 10:20:42
+  Round 11 done  : 2026-10-08 10:28:39
+  No user-interrupt waiting time during refinement (fully autonomous).
+
+================================================================================
+  Round | Task ID                  | Refine Parameters         | Rwp     | Delta   | Time(s) | Note
+================================================================================
+   1    | init_001                 | scale only                | 50.37%  |   —     |  1.408  | initialization
+   2    | refine_001_scale_cell    | +cell                     | 34.71%  | -15.66% |  1.596  |
+   3    | refine_002_scale_cell_v2 | scale+cell (more cycles)  | 34.58%  |  -0.13% |  0.929  |
+   4    | refine_003_initcell      | initial_cell=5.431A       | 33.87%  |  -0.71% |  1.844  |
+   5    | refine_004_alpha         | +alpha                    | 15.24%  | -18.63% |  2.534  |
+   6    | refine_005_beta_sig      | +beta+sig                 | FAILED  |   —     |    —    | SVD inversion failure
+   7    | refine_006_sig           | +sig only                 | 15.23%  |  -0.01% |  0.293  | RF=83.8% (rejected)
+   8    | refine_007_uiso          | +Uiso(Si)                 | 10.18%  |  -5.06% |  1.620  |
+   9    | refine_008_absorption    | +absorption               |  6.89%  |  -3.29% |  2.058  | alpha dropped (singular)
+  10    | refine_009_background    | +background(6 coeffs)     |  6.02%  |  -0.87% |  0.791  | alpha overflow anomaly
+  11    | refine_010_bkg_noalpha   | background (no alpha)     |  6.02%  |   0.00% |  0.791  | same result for safety
+================================================================================
+
+[Time Breakdown]
+  GSAS-II engine total         : 14.16 s  (successful rounds only)
+  MCP comm + image analysis    : ~8 min 30 s
+  User-interrupt waiting       :  0.00 s  (autonomous execution)
+  -----------------------------------------------------------------------
+  End-to-end total             :  8 min 44 s  (10:19:55 -> 10:28:39)
+
+================================================================================

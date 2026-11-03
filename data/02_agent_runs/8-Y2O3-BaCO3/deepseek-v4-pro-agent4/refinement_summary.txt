@@ -1,0 +1,34 @@
+============================================================
+GSAS-II Rietveld Refinement Summary
+Sample: Y2O3 + BaCO3
+Instrument: TREND (CSNS), 2theta=125 deg
+============================================================
+
+Task Start Time: 2026-10-09 14:12:51
+Task End Time: 2026-10-09 14:48:24
+Total Elapsed: 2133.9 seconds (35.6 minutes)
+
+----------------------------------------
+Rwp Tracking:
+----------------------------------------
+  init: 24.42% (initial)
+  round1_cell: 22.41% (delta=+2.01%)
+  round2_cell: 19.82% (delta=+2.59%)
+  round3_phasefrac: 11.88% (delta=+7.94%)
+  round4_alpha: 11.51% (delta=+0.37%)
+  round5_beta: 11.50% (delta=+0.01%)
+  round6_sig: 11.14% (delta=+0.36%)
+  round7_uiso: 10.26% (delta=+0.88%)
+  round8_bkg: 8.06% (delta=+2.20%)
+
+----------------------------------------
+Final Results:
+----------------------------------------
+  Initial Rwp: 24.42%
+  Final Rwp:   8.06%
+  Improvement: 16.36%
+  Total refinement rounds: 8
+
+Phase Fractions:
+  Y2O3 (Phase_1): ~50.9 wt%
+  BaCO3 (Phase_2): ~49.1 wt%

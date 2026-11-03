@@ -1,0 +1,38 @@
+GSAS-II refinement summary
+source gpx : D:\BaiduSyncdisk\Research\My_ongoing_research_or_work\AI_BeamLineScientist\rongzai_agent_paper\revision\data\LaB6\消融实验\有专家知识\step16_uiso.gpx
+histograms : 1 refinement + 2 auto-background
+  - PWDR RUN0001239_groupBM.gsa   type=PNT   Rwp=2.4217494014972627
+  - PWDR Autobkg for RUN0001239_groupBM.gsa   type=PNT   Rwp=None
+  - PWDR Autobkg for RUN0001239_groupBM.gsa   type=PNT   Rwp=None
+  [PWDR RUN0001239_groupBM.gsa] fit range 16173.965 .. 189989.34   used 16425 of 16426
+
+phases: 1
+
+[Phase_1]  atoms=2
+  cell: a=4.156402 b=4.156402 c=4.156402 alpha=90.0000 beta=90.0000 gamma=90.0000 V=71.8047
+  esd : a=0.000015 b=0.000015 c=0.000015 alpha=0.000000 beta=0.000000 gamma=0.000000 V=0.000776
+  label      type   x            y            z            occ      Uiso     flags
+  La0        La     0.000000     0.000000     0.000000     1.0000   0.00861  U
+  B1         B      0.199522     0.500000     0.500000     1.0000   0.00100  XU
+
+varyList (20):
+  0::A0
+  0::AUiso:0
+  0::dAx:1
+  0::AUiso:1
+  :0:Back;0
+  :0:Back;1
+  :0:Back;2
+  :0:Back;3
+  :0:Back;4
+  :0:Back;5
+  :0:alpha
+  :0:beta-0
+  :0:beta-1
+  :0:beta-q
+  :0:sig-0
+  :0:sig-1
+  :0:sig-2
+  :0:sig-q
+  :0:Scale
+  :0:Absorption

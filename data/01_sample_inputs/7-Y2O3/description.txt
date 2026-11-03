@@ -1,0 +1,5 @@
+Sample description:
+Commercial yttrium oxide (Y2O3) powder was purchased from Aladdin and used as received.
+
+Instrument description:
+Time-of-flight neutron powder diffraction data were collected using the TREND diffractometer at the China Spallation Neutron Source (CSNS), Dongguan, China, and the detector bank centered at 2θ=125.0° with a total flight path of 79.259 m was used for the present analysis.

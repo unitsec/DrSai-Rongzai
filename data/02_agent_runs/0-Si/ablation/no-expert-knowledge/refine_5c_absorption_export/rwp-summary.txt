@@ -1,0 +1,30 @@
+GSAS-II refinement summary
+source gpx : D:\BaiduSyncdisk\Research\My_ongoing_research_or_work\AI_BeamLineScientist\rongzai_agent_paper\revision\data\Si\消融实验\无专家知识\refine_5c_absorption.gpx
+histograms : 1 refinement + 2 auto-background
+  - PWDR RUN0023568_group5.gsa Bank 5   type=PNT   Rwp=5.2446213380192575
+  - PWDR Autobkg for RUN0023568_group5.gsa Bank 5   type=PNT   Rwp=None
+  - PWDR Autobkg for RUN0023568_group5.gsa Bank 5   type=PNT   Rwp=None
+  [PWDR RUN0023568_group5.gsa Bank 5] fit range 4108.513227960595 .. 28933.73   used 1422 of 1598
+
+phases: 1
+
+[Phase_1]  atoms=1
+  cell: a=5.424602 b=5.424602 c=5.424602 alpha=90.0000 beta=90.0000 gamma=90.0000 V=159.6260
+  esd : a=0.000338 b=0.000338 c=0.000338 alpha=0.000000 beta=0.000000 gamma=0.000000 V=0.029858
+  label      type   x            y            z            occ      Uiso     flags
+  Si         Si     0.125000     0.125000     0.125000     1.0000   0.00720  
+
+varyList (13):
+  0::A0
+  :0:Back;0
+  :0:Back;1
+  :0:Back;2
+  :0:Back;3
+  :0:Back;4
+  :0:Back;5
+  :0:alpha
+  :0:beta-0
+  :0:beta-1
+  :0:beta-q
+  :0:Scale
+  :0:Absorption

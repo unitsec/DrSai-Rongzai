@@ -1,0 +1,5 @@
+Sample description:
+Lanthanum hexaboride powder (NIST SRM 660c), enriched to approximately 99% in ¹¹B and certified for powder-diffraction line-position and line-shape calibration, was used as received.
+
+Instrument description:
+Time-of-flight neutron powder diffraction data were collected using the TREND diffractometer at the China Spallation Neutron Source (CSNS), Dongguan, China, and the backscattering detector bank centered at 2θ=177.0° with a total flight path of 80.0027 m was used for the present analysis.

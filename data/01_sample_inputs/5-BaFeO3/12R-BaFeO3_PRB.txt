@@ -1,0 +1,354 @@
+                                         PHYSICAL REVIEW B 102, 054404 (2020)
+
+
+
+                Charge disproportionation and interchange transitions in twelve-layer BaFeO3
+
+     Zhenhong Tan,1 Fabio Denis Romero,1,2 Takashi Saito,1,3 Masato Goto ,1 Midori Amano Patino,1 Anucha Koedtruad,1
+     Yoshihisa Kosugi,1 Wei-Tin Chen,4 Yu-Chun Chuang,5 Hwo-Shuenn Sheu ,5 J. Paul Attfield,6 and Yuichi Shimakawa1,*
+                                 1
+                                   Institute for Chemical Research, Kyoto University, Uji, Kyoto 611-0011, Japan
+                2
+                 Hakubi Center for Advanced Research, Kyoto University, Yoshida-honmachi, Sakyo-ku, Kyoto 606-8501, Japan
+                            3
+                              High Energy Accelerator Research Organization (KEK), Tokai, Ibaraki 319-1106, Japan
+            4
+              Center for Condensed Matter Sciences and Center of Atomic Initiative for New Materials, National Taiwan University,
+                                                 No. 1, Sec. 4, Roosevelt Road, Taipei 10617, Taiwan
+            5
+              National Synchrotron Radiation Research Center, 101 Hsin-Ann Road, Hsinchu Science Park, Hsinchu 30076, Taiwan
+                 6
+                   Center for Science at Extreme Conditions and School of Chemistry, University of Edinburgh, Mayfield Road,
+                                                        Edinburgh EH9 3JZ, United Kingdom
+
+                                      (Received 12 June 2020; accepted 13 July 2020; published 3 August 2020)
+
+                   A fully oxygenated hexagonal 12-layer perovskite BaFeO3 with nominal Fe4+ was obtained by high-pressure
+                synthesis. The structure consists of face-sharing Fe3 O9 octahedral trimers and corner-sharing octahedra. A
+                remarkable series of electronic transitions that relieve the electronic instability of Fe4+ are discovered on cooling;
+                2Fe4+ → Fe3+ + Fe5+ charge disproportionation and ordering over two sites accompanied by a structural
+                distortion at 500 K; charge disproportionation of the remaining Fe4+ with magnetic order at 280 K; and an
+                unprecedented charge interchange where Fe3+ and Fe5+ states are exchanged between two sites with spin
+                orientation change at 50 K. These properties demonstrate the presence of multiple competing ground states
+                in this complex, highly condensed network of corner- and face-sharing octahedra.
+
+                DOI: 10.1103/PhysRevB.102.054404
+
+
+
+                        I. INTRODUCTION                                      low-temperature topochemical oxidation of BaFeO2.5 , con-
+                                                                             sists of cubic close-packed layers (c) in a stacking sequence
+    Compounds containing unusually high valence iron ions
+                                                                             …ccc …(3C), as shown in Fig. 1(a). 3C BaFeO3 has a spi-
+often show charge disproportionation and charge-transfer
+                                                                             ral spin structure below 111 K but no charge dispropor-
+transitions to relieve electronic instability, sometimes accom-
+                                                                             tionation was reported [7]. When BaFeO3 is synthesized at
+panied by simultaneous changes in structural, transport, and
+                                                                             high temperature and ambient pressure, the six-layer hexag-
+magnetic properties. In CaFeO3 , for example, Fe4+ shows
+charge disproportionation (Fe4+ → 0.5Fe3+ + 0.5Fe5+ ) at                     onal [6H, Fig. 1(b)] polymorph is obtained. This consists
+290 K, and the rocksalt order of resultant Fe3+ and Fe5+                     of corner-sharing and face-sharing octahedra with the stack-
+leads to a metal-insulator transition [1]. The Bi-doped com-                 ing sequence of …cchcch … (h = hexagonal close-packed
+pound Ca0.5 Bi0.5 FeO3 containing Fe3.5+ undergoes succes-                   layer) [8,9]. Fully stoichiometric 6H BaFeO3 is difficult to
+sive charge transitions, and the competing magnetic interac-                 obtain under these conditions, however, and the resulting
+tions between Fe spins produce an idle spin state of Fe4.5+                  BaFeO3-δ containing both Fe3+ and Fe4+ does not show
+in the charge disproportionated phase [2,3]. In quadruple                    any charge transition at temperatures down to 4 K [10],
+perovskite LaCu3 Fe4 O12 , on the other hand, Fe3.75+ par-                   and reports on magnetic properties are inconsistent [11–16],
+ticipates in an intersite charge-transfer transition (3Cu2+ +                probably due to varying oxygen deficiencies of the samples.
+4Fe3.75+ → 3Cu3+ + 4Fe3+ ) at 393 K, and large negative                      A rhombohedral 12-layer compound (12R) with the stacking
+thermal expansion, metal-to-insulator, and paramagnetic-to-                  sequence …cchhcchhcchh … [Fig. 1(c)] was also reported
+antiferromagnetic changes occur simultaneously. These dras-                  in oxygen-deficient BaFeO3-δ (δ ∼ 0.1) obtained by high-
+tic changes in the properties of the charge-lattice-spin coupled             pressure and high-temperature oxidation of brownmillerite
+system originate from strong hybridization of low-lying Fe-3d                BaFeO2.5 [17–20]. The structure can also be considered as
+and O-2p orbitals in corner-sharing FeO6 octahedra [4,5].                    one where additional h layers are introduced into the 6H
+    Among compounds containing the high valent Fe ions,                      BaFeO3 arrangement. Although magnetic properties were
+BaFeO3 is of particular interest because several polymor-                    reported [21], details of the magnetic structure and the charge
+phic phases with differently connected Fe4+ O6 octahedra                     distribution were not determined.
+are known [6]. Furthermore, no apparent charge transitions                       Here, we have investigated the structural and magnetic
+have been reported in any of the polymorphs to date. The                     properties of fully oxygen stoichiometric BaFeO3 containing
+simple cubic perovskite BaFeO3 , which is synthesized by                     unusually high valence Fe4+ leading to the discovery of a
+                                                                             remarkable sequence of electronic and magnetic transitions
+                                                                             including an unprecedented charge interchange between or-
+ *
+     Corresponding author: shimak@scl.kyoto-u.ac.jp                          dered Fe3+ and Fe5+ states.
+
+2469-9950/2020/102(5)/054404(7)                                       054404-1                                   ©2020 American Physical Society
+ZHENHONG TAN et al.                                                                            PHYSICAL REVIEW B 102, 054404 (2020)
+
+
+
+
+    FIG. 1. Crystal structures of (a) 3C, (b) 6H, and (c) 12-layer BaFeO3 . Dashed black and red lines in (c) indicate R3̄m rhombohedral and
+C2/m monoclinic unit cells, respectively. (d) Rietveld fit to SXRD data obtained at room temperature with the wavelength of 0.599 86 Å
+using a monoclinic (C2/m) structure model. The top (green), middle (black), and bottom (orange) vertical tick marks represent the Bragg
+peak positions of monoclinic 12-layer BaFeO3 (97.64 wt %), BaCO3 (1.87 wt %), and α-Fe2 O3 (0.49 wt %), respectively. The insets show the
+splitting of selected diffraction peaks of BaFeO3 . (e) Fitted 57 Fe Mössbauer spectra of 12-layer BaFeO3 at room temperature.
+
+                II. EXPERIMENTAL DETAILS                                structure parameters were refined by the Rietveld method
+                                                                        with the computer program RIETAN-FP [22,23], and the crystal
+   Synthesis. Precursor 6H BaFeO3-δ (δ ∼ 0.3) was prepared
+                                                                        structure models were drawn by using the software VESTA
+by solid-state reaction of BaCO3 and Fe2 O3 at 1273 K for
+                                                                        [24]. Neutron-diffraction (ND) data in the temperature range
+12 h in an oxygen atmosphere. It was then mixed with the                4.2–300 K were collected by using the Polaris diffractometer
+oxidizing agent KClO4 , sealed into a platinum capsule, placed          at the ISIS Neutron Source. The powder sample was sealed
+in a cubic-anvil-type high-pressure apparatus, and treated at           into a vanadium can. The data were analyzed by using GSAS
+2–4 GPa and 1273 K for 30 min. After the high-pressure                  programs [25]. The valence states of cations in BaFeO3 were
+treatment, the sample was quenched to room temperature and              calculated using the bondvalence sum (BVS) method. The
+the pressure was released. The sample was then washed with              BVS formula is BVS = i e(r0 −ri )/0.37 , where ri represents
+distilled water to remove the KCl and unreacted KClO4 .                 the bond lengths between a cation and the adjacent oxygen
+   Characterization. The samples obtained under different               ions [26]. The BVS values for Fe ions were estimated using
+conditions were characterized by x-ray diffraction (XRD).               r0 values 1.780 [27].
+Detailed crystal structures of BaFeO3 prepared at 3 GPa                    57
+                                                                              Fe Mössbauer spectroscopy. 57 Fe Mössbauer spectra
+were analyzed by using synchrotron x-ray diffraction (SXRD)             were measured at various temperatures (5–490 K) in order
+data collected at TPS09A in NSRRC (λ = 0.826 56 Å) and                  to investigate the valence and magnetic states of Fe ions in
+BL02B2 in SPring-8 (λ = 0.599 86 Å). The powder sample                  the compound. The powder sample was wrapped with Al foil.
+was filled into a 0.2-mm silica capillary tube and the tube was         Temperature-dependent data were collected with a vacuum
+rotated during the measurement to minimize the absorption.              cryostat (T < 300 K) and a Cu plate apparatus with a ceramic
+Temperature-dependent SXRD data in the temperature range                plate heater (T > 300 K). The temperature was measured
+300–1073 K were collected at TPS09A, and those in the                   with a Pt thermocouple. The measurements were performed
+range 100–700 K were collected at BL02B2. The crystal                   in transmission geometry with a constant-acceleration spec-
+
+                                                                 054404-2
+CHARGE DISPROPORTIONATION AND INTERCHANGE …                                                 PHYSICAL REVIEW B 102, 054404 (2020)
+
+    TABLE I. Crystallographic parameters of 12-layer BaFeO3 re-        clinic structure phase of 12-layer BaFeO3 . BVSs calculated
+fined from SXRD data collected at 300 K. Space group C2/m              from the structure refinement are +3.03 for Fe1 (2a site in the
+(no. 12), a = 9.859 80(4) Å, b = 5.699 89(2) Å, c = 9.898 10(4) Å,     corner-sharing octahedra), +4.90 for Fe2 (2d site in the face-
+and β = 109.523 6(3)◦ . Rwp = 5.16% and Rp = 3.95%. All sites are      sharing octahedra), and +3.89 for Fe3 (4i site in the corner-
+fully occupied.                                                        and face-sharing octahedra). 57 Fe Mössbauer spectra taken
+                                                                       at 300 K [Fig. 1(e)] can be fitted with one singlet and two
+Atom    Site       x           y           z       100 × Uiso (Å2 )    doublets with an area ratio of approximately 1:1:2. The ISs
+                                                                       for the corresponding components are +0.559, −0.332, and
+Ba1      4i    0.2877(1)       0      0.8614(1)        0.57(2)         −0.028 mm s−1 , respectively. The first component is typical
+Ba2      4i    0.1261(1)       0      0.3806(1)        0.56(2)         for Fe3+ coordinated by six oxygen ions octahedrally [29].
+Fe1      2a        0           0           0           0.81(6)
+                                                                       The second, with large negative IS, suggests an unusually
+Fe2      2d        0          0.5         0.5          0.45(5)
+                                                                       high valence state of Fe, and the signal can be assigned to
+Fe3      4i    0.4068(3)       0      0.2210(2)        0.53(5)
+                                                                       Fe5+ [30]. The last, with the small IS, is similar to those
+O1       4i     0.605(1)       0      0.3747(9)         0.8(3)
+O2       8j    0.6151(7)   0.220(1)   0.6239(6)        1.2(2)
+                                                                       of CaFe4+ O3 (IS = 0.073 mm s−1 ) [1] and SrFe4+ O3 (IS =
+O3       4i     0.791(1)       0       0.875(1)         1.6(3)         0.054 mm s−1 ) [31]. The results thus suggest that at room
+O4       8j    0.4565(9)   0.252(2)   0.1259(8)        0.5(2)          temperature, the structure contains Fe3+ , Fe4+ , and Fe5+ with
+                                                                       the formula Ba4 Fe13+ Fe25+ Fe34+ 2 O12 . This demonstrates
+                                                                       that Fe4+ in the 12-layer BaFeO3 is charge disproportionated
+                                                                       over Fe1 and Fe2 sites, but remains undisproportionated at
+trometer by using a 57 Co /Rh radiation source. The velocity           ordering of three different valence states over three different
+scale and isomer shift (IS) were estimated with the relative           sites.
+values of α-Fe at room temperature. The spectra were fitted                A possible Fe13+ /Fe25+ charge disproportionation tran-
+to Lorentzian functions by using the standard least-squares            sition above room temperature was investigated by high-
+method.                                                                temperature SXRD, differential scanning calorimetry (DSC),
+   Heat-capacity measurement. In order to confirm the phase            and Mössbauer spectroscopy. In the temperature-dependent
+transition, heat capacity of the synthesized BaFeO3 was mea-           SXRD patterns, significant changes in the diffraction intensity
+sured by using differential scanning calorimetry (DSC 3500             were observed between 480 and 500 K [Figs. 2(a) and 2(b)].
+Sirius, NETZSCH). The powder sample was placed in an Al                The refinement against SXRD data collected at 570 K resulted
+container. The DSC data were collected from 573 to 303 K               in a good fit [Rwp = 4.94%, Fig. 2(c)] by using the R3̄m
+with a ramp rate of −10 K min−1 .                                      rhombohedral structure model, suggesting a structural tran-
+   Magnetic property measurements. Magnetic properties of              sition from the high-temperature rhombohedral (R3̄m) to low-
+the sample were measured by using a Quantum Design MPMS                temperature monoclinic (C2/m) phase. Temperature depen-
+superconducting quantum interference device magnetometer.              dencies of structure parameters (Fig. S3 in the Supplemental
+The magnetic susceptibility data were collected at tempera-            Material [28]) and heat-capacity measured in DSC (Fig. S4 in
+tures from 300 to 5 K with an applied field of 1 kOe.                  the Supplemental Material [28]) confirm the phase transition
+                                                                       at 500 K. Thermogravimetry shows that no change in oxygen
+                                                                       stoichiometry occurs at the transition. This phase transition
+               III. RESULTS AND DISCUSSION
+                                                                       is consistent with a charge disproportionation transition, al-
+   Oxygen-stoichiometric samples of BaFeO3 were obtained               though a clear change in the Mössbauer spectra was not acces-
+by treating 6H BaFeO3-δ at pressures between 2 and 4 GPa               sible due to difficulties in performing experiments at tempera-
+with the oxidizing agent KClO4 . We first analyzed the crystal         ture over 500 K. The Mössbauer spectrum at 490 K, which
+structure at room temperature by powder SXRD. A structural             is just below the transition temperature, consists of three
+model based on the previously reported R3̄m rhombohedral               singlet components of Fe1, Fe2, and Fe3 with the IS +0.268,
+(12R) structure [20] resulted in a poor fit to the data (Rwp =         −0.411, and −0.087 mm s−1 , respectively [Fig. 2(d)]. The
+23.50%, Fig. S1 in the Supplemental Material [28]). Better             significant decrease in IS of Fe1 implies an increase of valence
+observed and statistical fits were obtained by using a mon-            state, which is closer to Fe4+ . It is therefore reasonable to
+oclinic structure (space group C2/m) shown in Fig. 1(c).               conclude that the charge disproportionation transition oc-
+This model is a monoclinically distorted variant of the 12R            curs at about 500 K. This transition leads to charge order-
+structure containing face-sharing trimers. The final refinement        ing over Fe1 and Fe2 sites; Ba4 Fe14+ Fe24+ Fe34+ 2 O12 →
+results (Rwp = 5.16%) are shown in Fig. 1(d) and Table I.              Ba4 Fe13+ Fe25+ Fe34+ 2 O12 . As indicated by the paramagnetic
+The crystal structure analysis with powder neutron diffrac-            singlets in the Mössbauer spectra above room temperature, the
+tion (ND) at room temperature also confirmed the C2/m                  charge disproportionation transition at 500 K is not associated
+monoclinic crystal structure (Fig. S2 and Table S1 in the              with the magnetic transition.
+Supplemental Material [28]). All oxygen sites refined to full              A local maximum at 280 K in the temperature dependence
+occupancy within experimental error and thus the compound              of magnetic susceptibility [Fig. 3(a)] suggests an antiferro-
+has the stoichiometric composition. This is in sharp contrast          magnetic transition. Mössbauer spectroscopy data collected
+with the occupancy for the previously reported 12R BaFeO3-δ            below 280 K shown in Fig. 2(e) consist of four sextets, indicat-
+samples which always contain oxygen vacancies. We thus                 ing that all Fe spins are magnetically ordered. Importantly, the
+conclude that the present form of BaFeO3 synthesized under             IS of each spectrum component is +0.419, −0.359, +0.411,
+highly oxidizing conditions is the fully oxygenated mono-              and −0.174 mm s−1 , and the area ratios are approximately
+
+                                                                 054404-3
+ZHENHONG TAN et al.                                                                             PHYSICAL REVIEW B 102, 054404 (2020)
+
+
+
+
+    FIG. 2. Temperature-dependent SXRD in 10-K intervals showing splitting of the 12R (a) (0 1 5), (b) (1 1 9), and (0 2 7) peaks at the 500 K
+rhombohedral to monoclinic structural transition. (c) Rietveld fit to SXRD data obtained at 570 K with a wavelength of 0.826 56 Å using
+a rhombohedral (R3̄m) structure model. The top (green), middle (black), and bottom (orange) vertical tick marks represent the Bragg peak
+positions of rhombohedral BaFeO3 (96.43 wt %), BaCO3 (2.67 wt %), and α-Fe2 O3 (0.90 wt %), respectively. The insets show the selected
+diffraction peaks. a = 5.718 30(2) Å, c = 28.089 1(1) Å, Rwp = 4.94%, and Rp = 3.11%. (d),(e) Fitted 57 Fe Mössbauer spectra of 12-layer
+BaFeO3 at selected temperatures.
+
+
+1:1:1:1. In comparison to the spectrum at 300 K, the Fe34+               μB for Fe1, Fe2, Fe3(1), and Fe3(2) at 250 K, respectively
+component appears to have split into two sextets consistent              (Fig. S6 and Table S3 in the Supplemental Material [28]).
+with charge disproportionation and ordering that splits the Fe3          The two Fe3 sites refine to have significantly different mo-
+site into two subsites, 2Fe34+ → Fe3(1)3+ + Fe3(2)5+ . The               ments, which is consistent with the charge disproportionation
+result implies that a second charge disproportionation of Fe in          of Fe34+ to Fe3(1)3+ and Fe3(2)5+ suggested by the low-
+the Fe3 O9 trimers accompanies the antiferromagnetic order.              temperature Mössbauer results. The arrangement of charge-
+    Variable temperature SXRD data collected at temperatures             ordered Fe3(1) and Fe3(2) sites shown in Fig. 3(b) changes
+below 300 K do not show any further structural transitions               the crystal structure symmetry from C2/m to P21 /m or lower,
+(see Fig. S3 in the Supplemental Material [28]). However,                but no superstructure peaks consistent with loss of C centering
+variable temperature ND data collected below 280 K show                  are observed in the ND patterns.
+additional reflections consistent with long-range magnetic                  At temperatures below 100 K, the data were well fitted
+order [Figs. 3(b)–3(d)]. All magnetic reflections are accounted          by letting the direction of the moments point towards the z
+for using a 1 × 1 × 2 expansion of the nuclear cell. However,            axis, while maintaining the same relative arrangement. Figure
+two k vectors, (0, 0, 1/2) and (0, 1, 1/2), are needed to fit            3(d) shows the refinement results, giving magnetic moments
+the observed intensities. The best fit to the data was achieved          4.12(5) for Fe1, 3.6(1) for Fe2, and 2.74(5) undistinguish-
+by using the model shown in Fig. 3(e) in which the Fe1                   ably for Fe3(1) and Fe3(2) sites at 4.2 K (Table S5 in the
+spins order along (010), Fe2 along (01̄0), and Fe3 along both            Supplemental Material [28]). As shown in Fig. 3(f), Fe1
+(010) and (01̄0). This combination results in two inequivalent           and Fe2 both order along the z direction while maintaining
+Fe3 sites and hence four Fe sites in 1:1:1:1 ratio overall,              ferromagnetic and antiferromagnetic layers, respectively. Fe3
+consistent with the Mössbauer spectra. The Fe1 spins form                orders noncollinearly with a moment direction forming an
+ferromagnetic sheets stacked antiferromagnetically while the             angle of approximately 45° relative to the direction of Fe1
+Fe2 moments form antiferromagnetic sheets stacked antifer-               and Fe2 moments. The refined moment results suggest the
+romagnetically. At 100–250 K, all moments are aligned along              corresponding charge states to be Fe13+ , Fe23+ , Fe3(1)5+ ,
+the y direction (perpendicular to the ac plane). The refined             and Fe3(2)5+ . This charge distribution is consistent with the
+magnetic moments are 2.34(9), 0.81(9), 1.85(7), and 1.04(8)              Mössbauer spectrum collected at 50 K, which can be fitted
+
+                                                                  054404-4
+CHARGE DISPROPORTIONATION AND INTERCHANGE …                                                     PHYSICAL REVIEW B 102, 054404 (2020)
+
+
+
+
+    FIG. 3. (a) Temperature dependence of magnetic susceptibility for 12-layer BaFeO3 measured at applied field of 0.1 T. (b)–(d) Rietveld
+fits to ND patterns of 12-layer BaFeO3 at (b) 250 K, (c) 125 K, and (d) 4.2 K showing changes of long-d peaks due to the evolving spin orders.
+Results are given in the Supplemental Material [28]. (e),(f) Magnetic structure models for 12-layer BaFeO3 at temperatures (e) between 280
+and 100 K, and (f) below 100 K, showing the 1 × 1 × 2 magnetic supercell.
+
+by the four sextets with ISs of +0.498, +0.496, −0.199,                  lowest-temperature charge-redistributing transition at 50 K is
+and −0.213 mm s−1 [Fig. 2(e)] and is stable down to 4.2 K.               a valence interchange between the Fe2 and Fe3 sites in the
+Importantly, the ND and Mössbauer results clearly show an                face-sharing octahedral trimers.
+intersite charge transfer between Fe2 and Fe3(1) : Fe25+ +                   In the 12-layer BaFeO3 structure consisting of corner-
+Fe3(1)3+ → Fe23+ + Fe3(1)5+ , i.e., a valence interchange                sharing Fe1 octahedral layers and face-sharing Fe2/Fe3 oc-
+transition at 50 K (Fig. 4). The large changes of quadruple              tahedral trimers, Fe1 is always found to be the largest site
+splitting values for Fe2 and Fe3(1) demonstrate that their               and Fe2 the smallest, presumably due to the face-sharing con-
+chemical environments change during the charge-transfer pro-             straints on the Fe2 and Fe3 but not Fe1 sites. This results in the
+cess. It is also notable that the valence interchange transition         large Fe1 site being occupied by Fe3+ cations and the small
+is associated with spin reorientation.                                   Fe2 site being occupied by Fe5+ cations after the first charge
+    The present stoichiometric 12-layer material is the first            disproportionation transition. Once the Fe3 undergoes the
+polymorph of BaFeO3 showing charge disproportionation and                charge disproportionation at the second transition at 280 K,
+ordering transitions, and these are summarized in Fig. 4. The            Fe5+ ions are close to each other within two face-sharing
+Fe4+ charge uniform phase is stable above 500 K in the                   octahedra inside the trimers. The resulting electrostatic re-
+rhombohedral structure, but its electronic instability results in        pulsion likely drives the 50-K valence interchange transition
+successive charge-redistributing transitions accompanied by              that redistributes the charges into an alternating arrangement
+structural and magnetic transitions. The charge-redistributing           of Fe3+ and Fe5+ in the trimers, without direct Fe5+ -Fe5+
+transitions are discovered to be highly site selective. The first        contacts between face-sharing octahedra. The unusually high
+charge disproportionation transition at 500 K occurs at the              Fe valence states have strong hybridization of Fe-3d and
+corner-sharing Fe1 and face-sharing Fe2 sites, but Fe4+ re-              O-2p orbitals, so the valence interchange can be regarded
+mains undisproportionated at the Fe3 site. The second charge             as redistribution of ligand holes (L) described as d 5 L 2 +
+transition disproportionates the remaining Fe4+ at the Fe3               d 5 → d 5 + d 5 L 2 [5,32]. Such redistribution of the ligand
+site. Such successive site-selective charge-disproportionation           holes can easily be induced through the oxygen ions in the
+transitions have not been reported in other materials. The               face-sharing octahedra. The second charge disproportionation
+
+                                                                  054404-5
+ZHENHONG TAN et al.                                                                            PHYSICAL REVIEW B 102, 054404 (2020)
+
+
+
+
+    FIG. 4. (a) Plot of isomer shift (IS) fitted from 57 Fe Mössbauer spectra of 12-layer BaFeO3 against temperatures showing the electronic
+transitions at 280 and 50 K. (b) Schematic charge distributions and charge transitions of 12-layer BaFeO3 .
+
+transition at 280 K and the charge interchange transition at            The 12-layer BaFeO3 demonstrates possibilities within the
+50 K respectively are accompanied by the magnetic order and             rich variety of transitions in charge-lattice-spin coupled
+the spin orientation change. The former is a notably high               systems.
+temperature for Fe4+ magnetic order, as seen by comparison
+with the magnetic transitions of Fe4+ in SrFeO3 (TN = 134 K)
+[33] and 3C BaFeO3 (Tc = 111 K) [7]. The charge order of                                    ACKNOWLEDGMENTS
+Fe3+ and Fe5+ may be important to induce the long-range                    We thank D. Kan for helpful discussions. We also thank
+magnetic order. Below 50 K Fe3+ -Fe5+ magnetic interactions             S. Kawaguchi for help in the SXRD experiments at SPring-8
+through between 180° corner-sharing Fe-O-Fe bonds and                   and thank R. Smith for help in the ND experiments at ISIS
+90° face-sharing Fe-O-Fe bonds compete, and as a result,                Neutron Source. The synchrotron radiation experiments were
+a noncollinear magnetic structure is stabilized by the spin             performed at the Japan Synchrotron Radiation Research Insti-
+orientation change.                                                     tute (Proposal No. 2019B1757) and the National Synchrotron
+                                                                        Radiation Research Center (Proposal No. 2019-1-198). This
+                                                                        work was partly supported by Grants-in-Aids for Scientific
+                         IV. SUMMARY
+                                                                        Research (Grants No. 16H02266, No. 19H05823, and No.
+    We succeeded in obtaining the oxygenated 12-layer                   20H00397) and by grants for the Integrated Research Con-
+BaFeO3 containing nominal Fe4+ , by high-pressure synthesis.            sortium on Chemical Sciences and the International Collab-
+From temperature-dependent SXRD, ND, heat capacity, and                 orative Research Program of Institute for Chemical Research
+Mössbauer spectroscopy experiments, we found successive,                in Kyoto University from the Ministry of Education, Culture,
+site-selective charge-redistributing transitions described              Sports, Science and Technology (MEXT) of Japan. This work
+as Ba4 Fe14+ Fe24+ Fe34+ 2 O12 → (500 K) Ba4 Fe13+ Fe25+                was also supported by Japan Society for the Promotion of Sci-
+Fe34+ 2 O12 → (280 K)       Ba4 Fe13+ Fe25+ Fe3(1)3+ Fe3(2)5+           ence (JSPS) Core-to-Core Program (A) Advanced Research
+O12 → (50 K) Ba4 Fe13+ Fe23+ Fe3(1)5+ Fe3(2)5+ O12 . The                Networks and by the Yazaki Memorial Foundation for Science
+charge disproportionation transition at 500 K occurs at                 and Technology. Support was also provided by EPSRC and
+the corner-sharing Fe1 and face-sharing Fe2 sites and is                the Royal Society, UK.
+accompanied by a structural transition from rhombohedral                   Z.T. and Y.S. conceived the idea and initiated the project.
+(R3̄m) to monoclinic (C2/m) symmetry. The second charge                 Y.S. supervised the project. Z.T., T.S., M.G., and Y.K. pre-
+disproportionation transition at 280 K is of the remaining              pared the samples and performed the property measurements.
+Fe4+ at Fe3 sites and is accompanied by magnetic ordering of            Z.T., F.D.R., M.A.P., J.P.A., and Y.S. conducted neutron-
+all Fe spins. The charge interchange transition between Fe3+            diffraction experiments and analyzed the structures as well as
+and Fe5+ states at Fe2 and Fe3 sites at 50 K is accompanied by          magnetic structures. Z.T., M.G., M.A.P., A.K, Y.K., W.-T.C.,
+changes in the spin state and its orientation. Such successive          Y.-C.C., H.-S.S., and Y.S. conducted synchrotron diffraction
+charge disproportionation and interchange transitions with              experiments and analyzed the data. All authors discussed the
+all charges fully ordered in each phase may result from the             experimental results. Z.T., F.D.R., J.P.A., and Y.S. mainly
+presence of both corner-sharing and face-sharing octahedra.             wrote the manuscript.
+
+
+ [1] M. Takano, N. Nakanishi, Y. Takeda, S. Naka, and T. Takada,         [2] Y. Hosaka, F. D. Romero, N. Ichikawa, T. Saito, and Y.
+     Mater. Res. Bull. 12, 923 (1977).                                       Shimakawa, Angew. Chem. Int. Ed. 56, 4243 (2017).
+
+
+                                                                 054404-6
+CHARGE DISPROPORTIONATION AND INTERCHANGE …                                                   PHYSICAL REVIEW B 102, 054404 (2020)
+
+ [3] F. Denis Romero, Y. Hosaka, N. Ichikawa, T. Saito, G. McNally,    [20] M. Parras, M. Vallet-Regi, J. M. Gonzalez-Calbet, J. C. Grenier,
+     J. P. Attfield, and Y. Shimakawa, Phys. Rev. B 96, 064434              P. Hagenmuller, and J. Rodriguez-Carvajal, Eur. J. Solid State
+     (2017).                                                                Inorg. Chem. 26, 299 (1989).
+ [4] Y. W. Long, N. Hayashi, T. Saito, M. Azuma, S. Muranaka, and      [21] Y. Takeda, M. Shimada, F. Kanamaru, M. Koizumi, and N.
+     Y. Shimakawa, Nature (London) 458, 60 (2009).                          Yamamoto, Mater. Res. Bull. 9, 537 (1974).
+ [5] Y. Shimakawa, J. Phys. Appl. Phys. 48, 504006 (2015).             [22] H. M. Rietveld, J. Appl. Crystallogr. 2, 65 (1969).
+ [6] S. Mori, J. Am. Ceram. Soc. 49, 600 (1966).                       [23] F. Izumi and K. Momma, Solid State Phenom. 130, 15 (2007).
+ [7] N. Hayashi, T. Yamamoto, H. Kageyama, M. Nishi, Y.                [24] K. Momma and F. Izumi, J. Appl. Crystallogr. 44, 1272
+     Watanabe, T. Kawakami, Y. Matsushita, A. Fujimori, and M.              (2011).
+     Takano, Angew. Chem. Int. Ed. 50, 12547 (2011).                   [25] A. C. Larson and R. B. Von Dreele, Los Alamos Natl. Lab. Rep.
+ [8] W. W. Malinofsky and H. Kedesdy, J. Am. Chem. Soc. 76, 3090            LAUR 86-748, 2000.
+     (1954).                                                           [26] I. D. Brown and D. Altermatt, Acta Crystallogr., Sect. B 41, 244
+ [9] J. B. MacChesney, J. F. Potter, R. C. Sherwood, and H. J.              (1985).
+     Williams, J. Chem. Phys. 43, 3317 (1965).                         [27] N. E. Brese and M. O’Keeffe, Acta Crystallogr., Sect. B 47, 192
+[10] P. K. Gallagher, J. B. Macchesney, and D. N. E. Buchanan,              (1991).
+     J. Chem. Phys. 43, 516 (1965).                                    [28] See Supplemental Material at http://link.aps.org/supplemental/
+[11] F. Iga, Y. Nishihara, T. Katayama, K. Murata, and Y. Takeda,           10.1103/PhysRevB.102.054404 for Rietveld fits for SXRD pat-
+     J. Magn. Magn. Mater. 104-107, 1973 (1992).                            terns by using different space groups for 12-layer BaFeO3 ;
+[12] F. Iga, Y. Nishihara, and Y. Takeda, J. Magn. Magn. Mater. 104-        Rietveld fits for ND patterns at 300 K; Rietveld refinement
+     107, 1969 (1992).                                                      results for SXRD patterns obtained at temperatures from 100
+[13] K. Mori, T. Kamiyama, H. Kobayashi, K. Oikawa, T. Otomo,               to 700 K; heat capacity measurement; magnetic structure and
+     and S. Ikeda, J. Phys. Soc. Jpn. 72, 2024 (2003).                      Rietveld fits for ND patterns and results at 4.2, 125 and 250 K.
+[14] S. Morimoto, K. Kuzushita, and S. Nasu, J. Magn. Magn. Mater.     [29] P. Gütlich, E. Bill, and A. Trautwein, in Mössbauer Spec-
+     272-276, 127 (2004).                                                   troscopy and Transition Metal Chemistry: Fundamentals and
+[15] I. Gil de Muro, M. Insausti, L. Lezama, and T. Rojo, J. Solid          Application (Springer, Berlin, 2011).
+     State Chem. 178, 1712 (2005).                                     [30] P. Xiong, H. Seki, H. C. Guo, Y. Hosaka, T. Saito,
+[16] K. Mori, T. Kamiyama, H. Kobayashi, T. Otomo, K. Nishiyama,            M. Mizumaki, and Y. Shimakawa, Inorg. Chem. 55, 6218
+     M. Sugiyama, K. Itoh, T. Fukunaga, and S. Ikeda, J. Appl.              (2016).
+     Crystallogr. 40, s501 (2007).                                     [31] P. K. Gallagher, J. B. MacChesney, and D. N. E. Buchanan,
+[17] C. Gleitzer and M. Zanne, C. R. Acad. Sci. Paris Ser. C 267,           J. Chem. Phys. 41, 2429 (1964).
+     1601 (1968).                                                      [32] A. E. Bocquet, A. Fujimori, T. Mizokawa, T. Saitoh, H.
+[18] M. Zanne and C. Gleitzer, Bull. Soc. Chim. Fr. 1971, 1567              Namatame, S. Suga, N. Kimizuka, Y. Takeda, and M. Takano,
+     (1971).                                                                Phys. Rev. B. 45, 1561 (1992).
+[19] Y. Takeda, M. Shimada, F. Kanamaru, and M. Koizumi, J. Solid      [33] J. B. MacChesney, R. C. Sherwood, and J. F. Potter, J. Chem.
+     State Chem. 7, 229 (1973).                                             Phys. 43, 1907 (1965).
+
+
+
+
+                                                                 054404-7
+

@@ -1,0 +1,29 @@
+GSAS-II refinement summary
+source gpx : D:\BaiduSyncdisk\Research\My_ongoing_research_or_work\AI_BeamLineScientist\rongzai_agent_paper\revision\data\Si\不同探测器数据验证鲁棒性\RUN0023568_group5\refine_018_sig.gpx
+histograms : 1 refinement + 2 auto-background
+  - PWDR RUN0023568_group5.gsa Bank 5   type=PNT   Rwp=5.164819949674255
+  - PWDR Autobkg for RUN0023568_group5.gsa Bank 5   type=PNT   Rwp=None
+  - PWDR Autobkg for RUN0023568_group5.gsa Bank 5   type=PNT   Rwp=None
+  [PWDR RUN0023568_group5.gsa Bank 5] fit range 4108.513227960595 .. 28933.73   used 1422 of 1598
+
+phases: 1
+
+[Phase_1]  atoms=1
+  cell: a=5.424709 b=5.424709 c=5.424709 alpha=90.0000 beta=90.0000 gamma=90.0000 V=159.6354
+  esd : a=0.000327 b=0.000327 c=0.000327 alpha=0.000000 beta=0.000000 gamma=0.000000 V=0.028862
+  label      type   x            y            z            occ      Uiso     flags
+  Si         Si     0.125000     0.125000     0.125000     1.0000   0.00713  U
+
+varyList (12):
+  0::A0
+  0::AUiso:0
+  :0:Back;0
+  :0:Back;1
+  :0:Back;2
+  :0:alpha
+  :0:sig-0
+  :0:sig-1
+  :0:sig-2
+  :0:sig-q
+  :0:Scale
+  :0:Absorption
